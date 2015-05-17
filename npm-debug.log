@@ -1,0 +1,2518 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   '--save' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 silly cache add args [ 'express@3.4.8', null ]
+6 verbose cache add spec express@3.4.8
+7 silly cache add parsed spec { raw: 'express@3.4.8',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'express',
+7 silly cache add   rawSpec: '3.4.8',
+7 silly cache add   spec: '3.4.8',
+7 silly cache add   type: 'version' }
+8 verbose addNamed express@3.4.8
+9 silly addNamed semver.valid 3.4.8
+10 silly addNamed semver.validRange 3.4.8
+11 silly mapToRegistry name express
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/express
+15 verbose addNameVersion registry:https://registry.npmjs.org/express not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/express
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 20:20:29
+19 verbose request id 31e4cc656fc042ee
+20 verbose etag "6M3LIJMIQ9SQSJKQJ139WVSUU"
+21 http request GET https://registry.npmjs.org/express
+22 http 304 https://registry.npmjs.org/express
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 17 May 2015 23:20:30 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     etag: '"6M3LIJMIQ9SQSJKQJ139WVSUU"',
+23 silly get     age: '17',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-jfk1032-JFK',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1431904830.612379,VS0,VE2',
+23 silly get     vary: 'Accept' } ]
+24 verbose etag https://registry.npmjs.org/express from cache
+25 verbose get saving express to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+26 silly cache afterAdd express@3.4.8
+27 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\express\3.4.8\package\package.json not in flight; writing
+28 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\express\3.4.8\package\package.json written
+29 silly install resolved [ { name: 'express',
+29 silly install resolved     description: 'Sinatra inspired web development framework',
+29 silly install resolved     version: '3.4.8',
+29 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+29 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+29 silly install resolved     dependencies:
+29 silly install resolved      { connect: '2.12.0',
+29 silly install resolved        commander: '1.3.2',
+29 silly install resolved        'range-parser': '0.0.4',
+29 silly install resolved        mkdirp: '0.3.5',
+29 silly install resolved        cookie: '0.1.0',
+29 silly install resolved        'buffer-crc32': '0.2.1',
+29 silly install resolved        fresh: '0.2.0',
+29 silly install resolved        methods: '0.1.0',
+29 silly install resolved        send: '0.1.4',
+29 silly install resolved        'cookie-signature': '1.0.1',
+29 silly install resolved        'merge-descriptors': '0.0.1',
+29 silly install resolved        debug: '>= 0.7.3 < 1' },
+29 silly install resolved     devDependencies:
+29 silly install resolved      { ejs: '~0.8.4',
+29 silly install resolved        mocha: '~1.15.1',
+29 silly install resolved        jade: '~0.30.0',
+29 silly install resolved        hjs: '~0.0.6',
+29 silly install resolved        stylus: '~0.40.0',
+29 silly install resolved        should: '~2.1.1',
+29 silly install resolved        'connect-redis': '~1.4.5',
+29 silly install resolved        marked: '0.2.10',
+29 silly install resolved        supertest: '~0.8.1' },
+29 silly install resolved     keywords:
+29 silly install resolved      [ 'express',
+29 silly install resolved        'framework',
+29 silly install resolved        'sinatra',
+29 silly install resolved        'web',
+29 silly install resolved        'rest',
+29 silly install resolved        'restful',
+29 silly install resolved        'router',
+29 silly install resolved        'app',
+29 silly install resolved        'api' ],
+29 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express' },
+29 silly install resolved     main: 'index',
+29 silly install resolved     bin: { express: './bin/express' },
+29 silly install resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+29 silly install resolved     engines: { node: '>= 0.8.0' },
+29 silly install resolved     license: 'MIT',
+29 silly install resolved     bugs: { url: 'https://github.com/visionmedia/express/issues' },
+29 silly install resolved     homepage: 'https://github.com/visionmedia/express',
+29 silly install resolved     _id: 'express@3.4.8',
+29 silly install resolved     dist:
+29 silly install resolved      { shasum: 'aa7a8986de07053337f4bc5ed9a6453d9cc8e2e1',
+29 silly install resolved        tarball: 'http://registry.npmjs.org/express/-/express-3.4.8.tgz' },
+29 silly install resolved     _from: 'express@3.4.8',
+29 silly install resolved     _npmVersion: '1.3.21',
+29 silly install resolved     _npmUser: { name: 'jongleberry', email: 'jonathanrichardong@gmail.com' },
+29 silly install resolved     maintainers: [ [Object] ],
+29 silly install resolved     directories: {},
+29 silly install resolved     _shasum: 'aa7a8986de07053337f4bc5ed9a6453d9cc8e2e1',
+29 silly install resolved     _resolved: 'https://registry.npmjs.org/express/-/express-3.4.8.tgz',
+29 silly install resolved     readme: 'ERROR: No README data found!' } ]
+30 info install express@3.4.8 into c:\socket.io\examples\chat
+31 info installOne express@3.4.8
+32 verbose installOne of express to c:\socket.io\examples\chat not in flight; installing
+33 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\express-8a00654b17825612.lock for c:\socket.io\examples\chat\node_modules\express
+34 silly install write writing express 3.4.8 to c:\socket.io\examples\chat\node_modules\express
+35 silly cache addNamed cb express@3.4.8
+36 verbose unbuild node_modules\express
+37 silly gentlyRm c:\socket.io\examples\chat\node_modules\express is being purged from base c:\socket.io\examples\chat
+38 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express
+39 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\express\3.4.8\package.tgz
+40 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express
+41 silly gentlyRm c:\socket.io\examples\chat\node_modules\express is being purged
+42 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express
+43 silly gunzTarPerm modes [ '777', '666' ]
+44 silly gunzTarPerm extractEntry package.json
+45 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+48 silly gunzTarPerm extractEntry LICENSE
+49 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+50 silly gunzTarPerm extractEntry index.js
+51 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+52 silly gunzTarPerm extractEntry History.md
+53 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+54 silly gunzTarPerm extractEntry Makefile
+55 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+56 silly gunzTarPerm extractEntry .travis.yml
+57 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+58 silly gunzTarPerm extractEntry benchmarks/middleware.js
+59 silly gunzTarPerm modified mode [ 'benchmarks/middleware.js', 420, 438 ]
+60 silly gunzTarPerm extractEntry benchmarks/Makefile
+61 silly gunzTarPerm modified mode [ 'benchmarks/Makefile', 420, 438 ]
+62 silly gunzTarPerm extractEntry benchmarks/run
+63 silly gunzTarPerm modified mode [ 'benchmarks/run', 493, 511 ]
+64 silly gunzTarPerm extractEntry bin/express
+65 silly gunzTarPerm modified mode [ 'bin/express', 493, 511 ]
+66 silly gunzTarPerm extractEntry lib/application.js
+67 silly gunzTarPerm modified mode [ 'lib/application.js', 420, 438 ]
+68 silly gunzTarPerm extractEntry lib/express.js
+69 silly gunzTarPerm modified mode [ 'lib/express.js', 420, 438 ]
+70 silly gunzTarPerm extractEntry lib/middleware.js
+71 silly gunzTarPerm modified mode [ 'lib/middleware.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry lib/request.js
+73 silly gunzTarPerm modified mode [ 'lib/request.js', 420, 438 ]
+74 silly gunzTarPerm extractEntry lib/response.js
+75 silly gunzTarPerm modified mode [ 'lib/response.js', 420, 438 ]
+76 silly gunzTarPerm extractEntry lib/utils.js
+77 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+78 silly gunzTarPerm extractEntry lib/view.js
+79 silly gunzTarPerm modified mode [ 'lib/view.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry lib/router/index.js
+81 silly gunzTarPerm modified mode [ 'lib/router/index.js', 420, 438 ]
+82 silly gunzTarPerm extractEntry lib/router/route.js
+83 silly gunzTarPerm modified mode [ 'lib/router/route.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry Readme.md
+85 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+86 info preinstall express@3.4.8
+87 silly prepareForInstallMany adding connect@2.12.0 from express dependencies
+88 silly prepareForInstallMany adding commander@1.3.2 from express dependencies
+89 silly prepareForInstallMany adding range-parser@0.0.4 from express dependencies
+90 silly prepareForInstallMany adding mkdirp@0.3.5 from express dependencies
+91 silly prepareForInstallMany adding cookie@0.1.0 from express dependencies
+92 silly prepareForInstallMany adding buffer-crc32@0.2.1 from express dependencies
+93 silly prepareForInstallMany adding fresh@0.2.0 from express dependencies
+94 silly prepareForInstallMany adding methods@0.1.0 from express dependencies
+95 silly prepareForInstallMany adding send@0.1.4 from express dependencies
+96 silly prepareForInstallMany adding cookie-signature@1.0.1 from express dependencies
+97 silly prepareForInstallMany adding merge-descriptors@0.0.1 from express dependencies
+98 silly prepareForInstallMany adding debug@>= 0.7.3 < 1 from express dependencies
+99 silly cache add args [ 'range-parser@0.0.4', null ]
+100 verbose cache add spec range-parser@0.0.4
+101 silly cache add parsed spec { raw: 'range-parser@0.0.4',
+101 silly cache add   scope: null,
+101 silly cache add   name: 'range-parser',
+101 silly cache add   rawSpec: '0.0.4',
+101 silly cache add   spec: '0.0.4',
+101 silly cache add   type: 'version' }
+102 verbose addNamed range-parser@0.0.4
+103 silly addNamed semver.valid 0.0.4
+104 silly addNamed semver.validRange 0.0.4
+105 silly mapToRegistry name range-parser
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry uri https://registry.npmjs.org/range-parser
+109 verbose addNameVersion registry:https://registry.npmjs.org/range-parser not in flight; fetching
+110 silly cache add args [ 'mkdirp@0.3.5', null ]
+111 verbose cache add spec mkdirp@0.3.5
+112 silly cache add parsed spec { raw: 'mkdirp@0.3.5',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'mkdirp',
+112 silly cache add   rawSpec: '0.3.5',
+112 silly cache add   spec: '0.3.5',
+112 silly cache add   type: 'version' }
+113 verbose addNamed mkdirp@0.3.5
+114 silly addNamed semver.valid 0.3.5
+115 silly addNamed semver.validRange 0.3.5
+116 silly mapToRegistry name mkdirp
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+120 verbose addNameVersion registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+121 silly cache add args [ 'cookie@0.1.0', null ]
+122 verbose cache add spec cookie@0.1.0
+123 silly cache add parsed spec { raw: 'cookie@0.1.0',
+123 silly cache add   scope: null,
+123 silly cache add   name: 'cookie',
+123 silly cache add   rawSpec: '0.1.0',
+123 silly cache add   spec: '0.1.0',
+123 silly cache add   type: 'version' }
+124 verbose addNamed cookie@0.1.0
+125 silly addNamed semver.valid 0.1.0
+126 silly addNamed semver.validRange 0.1.0
+127 silly mapToRegistry name cookie
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/cookie
+131 verbose addNameVersion registry:https://registry.npmjs.org/cookie not in flight; fetching
+132 silly cache add args [ 'buffer-crc32@0.2.1', null ]
+133 verbose cache add spec buffer-crc32@0.2.1
+134 silly cache add parsed spec { raw: 'buffer-crc32@0.2.1',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'buffer-crc32',
+134 silly cache add   rawSpec: '0.2.1',
+134 silly cache add   spec: '0.2.1',
+134 silly cache add   type: 'version' }
+135 verbose addNamed buffer-crc32@0.2.1
+136 silly addNamed semver.valid 0.2.1
+137 silly addNamed semver.validRange 0.2.1
+138 silly mapToRegistry name buffer-crc32
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry uri https://registry.npmjs.org/buffer-crc32
+142 verbose addNameVersion registry:https://registry.npmjs.org/buffer-crc32 not in flight; fetching
+143 silly cache add args [ 'fresh@0.2.0', null ]
+144 verbose cache add spec fresh@0.2.0
+145 silly cache add parsed spec { raw: 'fresh@0.2.0',
+145 silly cache add   scope: null,
+145 silly cache add   name: 'fresh',
+145 silly cache add   rawSpec: '0.2.0',
+145 silly cache add   spec: '0.2.0',
+145 silly cache add   type: 'version' }
+146 verbose addNamed fresh@0.2.0
+147 silly addNamed semver.valid 0.2.0
+148 silly addNamed semver.validRange 0.2.0
+149 silly mapToRegistry name fresh
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry uri https://registry.npmjs.org/fresh
+153 verbose addNameVersion registry:https://registry.npmjs.org/fresh not in flight; fetching
+154 silly cache add args [ 'methods@0.1.0', null ]
+155 verbose cache add spec methods@0.1.0
+156 silly cache add parsed spec { raw: 'methods@0.1.0',
+156 silly cache add   scope: null,
+156 silly cache add   name: 'methods',
+156 silly cache add   rawSpec: '0.1.0',
+156 silly cache add   spec: '0.1.0',
+156 silly cache add   type: 'version' }
+157 verbose addNamed methods@0.1.0
+158 silly addNamed semver.valid 0.1.0
+159 silly addNamed semver.validRange 0.1.0
+160 silly mapToRegistry name methods
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry uri https://registry.npmjs.org/methods
+164 verbose addNameVersion registry:https://registry.npmjs.org/methods not in flight; fetching
+165 silly cache add args [ 'send@0.1.4', null ]
+166 verbose cache add spec send@0.1.4
+167 silly cache add parsed spec { raw: 'send@0.1.4',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'send',
+167 silly cache add   rawSpec: '0.1.4',
+167 silly cache add   spec: '0.1.4',
+167 silly cache add   type: 'version' }
+168 verbose addNamed send@0.1.4
+169 silly addNamed semver.valid 0.1.4
+170 silly addNamed semver.validRange 0.1.4
+171 silly mapToRegistry name send
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry uri https://registry.npmjs.org/send
+175 verbose addNameVersion registry:https://registry.npmjs.org/send not in flight; fetching
+176 silly cache add args [ 'cookie-signature@1.0.1', null ]
+177 verbose cache add spec cookie-signature@1.0.1
+178 silly cache add parsed spec { raw: 'cookie-signature@1.0.1',
+178 silly cache add   scope: null,
+178 silly cache add   name: 'cookie-signature',
+178 silly cache add   rawSpec: '1.0.1',
+178 silly cache add   spec: '1.0.1',
+178 silly cache add   type: 'version' }
+179 verbose addNamed cookie-signature@1.0.1
+180 silly addNamed semver.valid 1.0.1
+181 silly addNamed semver.validRange 1.0.1
+182 silly mapToRegistry name cookie-signature
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry uri https://registry.npmjs.org/cookie-signature
+186 verbose addNameVersion registry:https://registry.npmjs.org/cookie-signature not in flight; fetching
+187 silly cache add args [ 'merge-descriptors@0.0.1', null ]
+188 verbose cache add spec merge-descriptors@0.0.1
+189 silly cache add parsed spec { raw: 'merge-descriptors@0.0.1',
+189 silly cache add   scope: null,
+189 silly cache add   name: 'merge-descriptors',
+189 silly cache add   rawSpec: '0.0.1',
+189 silly cache add   spec: '0.0.1',
+189 silly cache add   type: 'version' }
+190 verbose addNamed merge-descriptors@0.0.1
+191 silly addNamed semver.valid 0.0.1
+192 silly addNamed semver.validRange 0.0.1
+193 silly mapToRegistry name merge-descriptors
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry uri https://registry.npmjs.org/merge-descriptors
+197 verbose addNameVersion registry:https://registry.npmjs.org/merge-descriptors not in flight; fetching
+198 silly cache add args [ 'debug@>= 0.7.3 < 1', null ]
+199 verbose cache add spec debug@>= 0.7.3 < 1
+200 silly cache add parsed spec { raw: 'debug@>= 0.7.3 < 1',
+200 silly cache add   scope: null,
+200 silly cache add   name: 'debug',
+200 silly cache add   rawSpec: '>= 0.7.3 < 1',
+200 silly cache add   spec: '>=0.7.3 <1.0.0',
+200 silly cache add   type: 'range' }
+201 verbose addNamed debug@>=0.7.3 <1.0.0
+202 silly addNamed semver.valid null
+203 silly addNamed semver.validRange >=0.7.3 <1.0.0
+204 silly addNameRange { name: 'debug', range: '>=0.7.3 <1.0.0', hasData: false }
+205 silly mapToRegistry name debug
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry uri https://registry.npmjs.org/debug
+209 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+210 silly cache add args [ 'connect@2.12.0', null ]
+211 verbose cache add spec connect@2.12.0
+212 silly cache add parsed spec { raw: 'connect@2.12.0',
+212 silly cache add   scope: null,
+212 silly cache add   name: 'connect',
+212 silly cache add   rawSpec: '2.12.0',
+212 silly cache add   spec: '2.12.0',
+212 silly cache add   type: 'version' }
+213 verbose addNamed connect@2.12.0
+214 silly addNamed semver.valid 2.12.0
+215 silly addNamed semver.validRange 2.12.0
+216 silly mapToRegistry name connect
+217 silly mapToRegistry using default registry
+218 silly mapToRegistry registry https://registry.npmjs.org/
+219 silly mapToRegistry uri https://registry.npmjs.org/connect
+220 verbose addNameVersion registry:https://registry.npmjs.org/connect not in flight; fetching
+221 silly cache add args [ 'commander@1.3.2', null ]
+222 verbose cache add spec commander@1.3.2
+223 silly cache add parsed spec { raw: 'commander@1.3.2',
+223 silly cache add   scope: null,
+223 silly cache add   name: 'commander',
+223 silly cache add   rawSpec: '1.3.2',
+223 silly cache add   spec: '1.3.2',
+223 silly cache add   type: 'version' }
+224 verbose addNamed commander@1.3.2
+225 silly addNamed semver.valid 1.3.2
+226 silly addNamed semver.validRange 1.3.2
+227 silly mapToRegistry name commander
+228 silly mapToRegistry using default registry
+229 silly mapToRegistry registry https://registry.npmjs.org/
+230 silly mapToRegistry uri https://registry.npmjs.org/commander
+231 verbose addNameVersion registry:https://registry.npmjs.org/commander not in flight; fetching
+232 verbose request uri https://registry.npmjs.org/connect
+233 verbose request no auth needed
+234 info attempt registry request try #1 at 20:20:31
+235 http request GET https://registry.npmjs.org/connect
+236 verbose request uri https://registry.npmjs.org/range-parser
+237 verbose request no auth needed
+238 info attempt registry request try #1 at 20:20:31
+239 verbose etag "3LNMXDEPINP8BRLYF8TQXB0MC"
+240 http request GET https://registry.npmjs.org/range-parser
+241 verbose request uri https://registry.npmjs.org/mkdirp
+242 verbose request no auth needed
+243 info attempt registry request try #1 at 20:20:31
+244 verbose etag "2JO3W97TY0J7IT84HRD0KBWVE"
+245 http request GET https://registry.npmjs.org/mkdirp
+246 verbose request uri https://registry.npmjs.org/cookie
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 20:20:31
+249 verbose etag "G5M4HYVDKW9GMEDTP1YBYKFU"
+250 http request GET https://registry.npmjs.org/cookie
+251 verbose request uri https://registry.npmjs.org/buffer-crc32
+252 verbose request no auth needed
+253 info attempt registry request try #1 at 20:20:31
+254 verbose etag "CR10R1H9CLVA9L87RE1JJV0SA"
+255 http request GET https://registry.npmjs.org/buffer-crc32
+256 verbose request uri https://registry.npmjs.org/fresh
+257 verbose request no auth needed
+258 info attempt registry request try #1 at 20:20:31
+259 verbose etag "2M5C1MDQI2TAMJYAMTIF5EGYA"
+260 http request GET https://registry.npmjs.org/fresh
+261 verbose request uri https://registry.npmjs.org/methods
+262 verbose request no auth needed
+263 info attempt registry request try #1 at 20:20:31
+264 verbose etag "CPUAO15XMGVV4PHDMFKSL0TO3"
+265 http request GET https://registry.npmjs.org/methods
+266 verbose request uri https://registry.npmjs.org/send
+267 verbose request no auth needed
+268 info attempt registry request try #1 at 20:20:31
+269 verbose etag "4QDIWN4XAB4FKNUHLPS7Q7366"
+270 http request GET https://registry.npmjs.org/send
+271 verbose request uri https://registry.npmjs.org/merge-descriptors
+272 verbose request no auth needed
+273 info attempt registry request try #1 at 20:20:31
+274 verbose etag "7LNZ9UFR466XB4R19MXWI8S2"
+275 http request GET https://registry.npmjs.org/merge-descriptors
+276 verbose request uri https://registry.npmjs.org/debug
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 20:20:31
+279 verbose etag "9LPDOAZWB20EF7W63ALJPPOM7"
+280 http request GET https://registry.npmjs.org/debug
+281 verbose request uri https://registry.npmjs.org/cookie-signature
+282 verbose request no auth needed
+283 info attempt registry request try #1 at 20:20:31
+284 verbose etag "EOGTWQ0TSHZBNF0YLBN7O4FQM"
+285 http request GET https://registry.npmjs.org/cookie-signature
+286 verbose request uri https://registry.npmjs.org/commander
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 20:20:31
+289 verbose etag "BMFHX7Q172VAWJARI12J3HCSP"
+290 http request GET https://registry.npmjs.org/commander
+291 http 304 https://registry.npmjs.org/mkdirp
+292 silly get cb [ 304,
+292 silly get   { date: 'Sun, 17 May 2015 23:20:31 GMT',
+292 silly get     via: '1.1 varnish',
+292 silly get     'cache-control': 'max-age=60',
+292 silly get     etag: '"2JO3W97TY0J7IT84HRD0KBWVE"',
+292 silly get     age: '32',
+292 silly get     connection: 'keep-alive',
+292 silly get     'x-served-by': 'cache-jfk1029-JFK',
+292 silly get     'x-cache': 'HIT',
+292 silly get     'x-cache-hits': '2',
+292 silly get     'x-timer': 'S1431904831.436346,VS0,VE0',
+292 silly get     vary: 'Accept' } ]
+293 verbose etag https://registry.npmjs.org/mkdirp from cache
+294 verbose get saving mkdirp to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\mkdirp\.cache.json
+295 silly cache afterAdd mkdirp@0.3.5
+296 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\mkdirp\0.3.5\package\package.json not in flight; writing
+297 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\mkdirp\0.3.5\package\package.json written
+298 http 304 https://registry.npmjs.org/merge-descriptors
+299 silly get cb [ 304,
+299 silly get   { date: 'Sun, 17 May 2015 23:20:31 GMT',
+299 silly get     via: '1.1 varnish',
+299 silly get     'cache-control': 'max-age=60',
+299 silly get     etag: '"7LNZ9UFR466XB4R19MXWI8S2"',
+299 silly get     age: '4',
+299 silly get     connection: 'keep-alive',
+299 silly get     'x-served-by': 'cache-jfk1033-JFK',
+299 silly get     'x-cache': 'HIT',
+299 silly get     'x-cache-hits': '1',
+299 silly get     'x-timer': 'S1431904831.463627,VS0,VE0',
+299 silly get     vary: 'Accept' } ]
+300 verbose etag https://registry.npmjs.org/merge-descriptors from cache
+301 verbose get saving merge-descriptors to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\merge-descriptors\.cache.json
+302 silly cache afterAdd merge-descriptors@0.0.1
+303 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\merge-descriptors\0.0.1\package\package.json not in flight; writing
+304 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\merge-descriptors\0.0.1\package\package.json written
+305 http 304 https://registry.npmjs.org/cookie-signature
+306 silly get cb [ 304,
+306 silly get   { date: 'Sun, 17 May 2015 23:20:31 GMT',
+306 silly get     via: '1.1 varnish',
+306 silly get     'cache-control': 'max-age=60',
+306 silly get     etag: '"EOGTWQ0TSHZBNF0YLBN7O4FQM"',
+306 silly get     age: '4',
+306 silly get     connection: 'keep-alive',
+306 silly get     'x-served-by': 'cache-jfk1026-JFK',
+306 silly get     'x-cache': 'HIT',
+306 silly get     'x-cache-hits': '1',
+306 silly get     'x-timer': 'S1431904831.658214,VS0,VE0',
+306 silly get     vary: 'Accept' } ]
+307 verbose etag https://registry.npmjs.org/cookie-signature from cache
+308 verbose get saving cookie-signature to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\cookie-signature\.cache.json
+309 silly cache afterAdd cookie-signature@1.0.1
+310 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\cookie-signature\1.0.1\package\package.json not in flight; writing
+311 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\cookie-signature\1.0.1\package\package.json written
+312 http 304 https://registry.npmjs.org/fresh
+313 silly get cb [ 304,
+313 silly get   { date: 'Sun, 17 May 2015 23:20:31 GMT',
+313 silly get     via: '1.1 varnish',
+313 silly get     'cache-control': 'max-age=60',
+313 silly get     etag: '"2M5C1MDQI2TAMJYAMTIF5EGYA"',
+313 silly get     age: '24',
+313 silly get     connection: 'keep-alive',
+313 silly get     'x-served-by': 'cache-jfk1032-JFK',
+313 silly get     'x-cache': 'HIT',
+313 silly get     'x-cache-hits': '1',
+313 silly get     'x-timer': 'S1431904831.428493,VS0,VE0',
+313 silly get     vary: 'Accept' } ]
+314 verbose etag https://registry.npmjs.org/fresh from cache
+315 verbose get saving fresh to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\fresh\.cache.json
+316 silly cache afterAdd fresh@0.2.0
+317 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\fresh\0.2.0\package\package.json not in flight; writing
+318 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\fresh\0.2.0\package\package.json written
+319 http 304 https://registry.npmjs.org/send
+320 silly get cb [ 304,
+320 silly get   { date: 'Sun, 17 May 2015 23:20:31 GMT',
+320 silly get     via: '1.1 varnish',
+320 silly get     'cache-control': 'max-age=60',
+320 silly get     etag: '"4QDIWN4XAB4FKNUHLPS7Q7366"',
+320 silly get     age: '24',
+320 silly get     connection: 'keep-alive',
+320 silly get     'x-served-by': 'cache-jfk1020-JFK',
+320 silly get     'x-cache': 'HIT',
+320 silly get     'x-cache-hits': '2',
+320 silly get     'x-timer': 'S1431904831.920558,VS0,VE0',
+320 silly get     vary: 'Accept' } ]
+321 verbose etag https://registry.npmjs.org/send from cache
+322 verbose get saving send to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\send\.cache.json
+323 http 304 https://registry.npmjs.org/buffer-crc32
+324 silly get cb [ 304,
+324 silly get   { date: 'Sun, 17 May 2015 23:20:31 GMT',
+324 silly get     via: '1.1 varnish',
+324 silly get     'cache-control': 'max-age=60',
+324 silly get     etag: '"CR10R1H9CLVA9L87RE1JJV0SA"',
+324 silly get     age: '17',
+324 silly get     connection: 'keep-alive',
+324 silly get     'x-served-by': 'cache-jfk1020-JFK',
+324 silly get     'x-cache': 'HIT',
+324 silly get     'x-cache-hits': '1',
+324 silly get     'x-timer': 'S1431904831.920167,VS0,VE0',
+324 silly get     vary: 'Accept' } ]
+325 verbose etag https://registry.npmjs.org/buffer-crc32 from cache
+326 verbose get saving buffer-crc32 to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\buffer-crc32\.cache.json
+327 http 304 https://registry.npmjs.org/commander
+328 silly get cb [ 304,
+328 silly get   { date: 'Sun, 17 May 2015 23:20:31 GMT',
+328 silly get     via: '1.1 varnish',
+328 silly get     'cache-control': 'max-age=60',
+328 silly get     etag: '"BMFHX7Q172VAWJARI12J3HCSP"',
+328 silly get     age: '51',
+328 silly get     connection: 'keep-alive',
+328 silly get     'x-served-by': 'cache-jfk1031-JFK',
+328 silly get     'x-cache': 'HIT',
+328 silly get     'x-cache-hits': '7',
+328 silly get     'x-timer': 'S1431904831.931239,VS0,VE0',
+328 silly get     vary: 'Accept' } ]
+329 verbose etag https://registry.npmjs.org/commander from cache
+330 verbose get saving commander to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\commander\.cache.json
+331 silly cache afterAdd send@0.1.4
+332 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\send\0.1.4\package\package.json not in flight; writing
+333 http 304 https://registry.npmjs.org/debug
+334 silly get cb [ 304,
+334 silly get   { date: 'Sun, 17 May 2015 23:20:31 GMT',
+334 silly get     via: '1.1 varnish',
+334 silly get     'cache-control': 'max-age=60',
+334 silly get     etag: '"9LPDOAZWB20EF7W63ALJPPOM7"',
+334 silly get     age: '37',
+334 silly get     connection: 'keep-alive',
+334 silly get     'x-served-by': 'cache-jfk1032-JFK',
+334 silly get     'x-cache': 'HIT',
+334 silly get     'x-cache-hits': '1',
+334 silly get     'x-timer': 'S1431904831.939810,VS0,VE0',
+334 silly get     vary: 'Accept' } ]
+335 verbose etag https://registry.npmjs.org/debug from cache
+336 verbose get saving debug to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\debug\.cache.json
+337 silly cache afterAdd commander@1.3.2
+338 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\commander\1.3.2\package\package.json not in flight; writing
+339 silly addNameRange number 2 { name: 'debug', range: '>=0.7.3 <1.0.0', hasData: true }
+340 silly addNameRange versions [ 'debug',
+340 silly addNameRange   [ '0.0.1',
+340 silly addNameRange     '0.1.0',
+340 silly addNameRange     '0.2.0',
+340 silly addNameRange     '0.3.0',
+340 silly addNameRange     '0.4.0',
+340 silly addNameRange     '0.4.1',
+340 silly addNameRange     '0.5.0',
+340 silly addNameRange     '0.6.0',
+340 silly addNameRange     '0.7.0',
+340 silly addNameRange     '0.7.1',
+340 silly addNameRange     '0.7.2',
+340 silly addNameRange     '0.7.3',
+340 silly addNameRange     '0.7.4',
+340 silly addNameRange     '0.8.0',
+340 silly addNameRange     '0.8.1',
+340 silly addNameRange     '1.0.0',
+340 silly addNameRange     '1.0.1',
+340 silly addNameRange     '1.0.2',
+340 silly addNameRange     '1.0.3',
+340 silly addNameRange     '1.0.4',
+340 silly addNameRange     '2.0.0',
+340 silly addNameRange     '2.1.0',
+340 silly addNameRange     '2.1.1',
+340 silly addNameRange     '2.1.2',
+340 silly addNameRange     '2.1.3',
+340 silly addNameRange     '2.2.0' ] ]
+341 verbose addNamed debug@0.8.1
+342 silly addNamed semver.valid 0.8.1
+343 silly addNamed semver.validRange 0.8.1
+344 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\commander\1.3.2\package\package.json written
+345 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\send\0.1.4\package\package.json written
+346 silly cache afterAdd buffer-crc32@0.2.1
+347 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\buffer-crc32\0.2.1\package\package.json not in flight; writing
+348 silly cache afterAdd debug@0.8.1
+349 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\debug\0.8.1\package\package.json not in flight; writing
+350 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\buffer-crc32\0.2.1\package\package.json written
+351 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\debug\0.8.1\package\package.json written
+352 http 304 https://registry.npmjs.org/methods
+353 silly get cb [ 304,
+353 silly get   { date: 'Sun, 17 May 2015 23:20:32 GMT',
+353 silly get     via: '1.1 varnish',
+353 silly get     'cache-control': 'max-age=60',
+353 silly get     etag: '"CPUAO15XMGVV4PHDMFKSL0TO3"',
+353 silly get     age: '3',
+353 silly get     connection: 'keep-alive',
+353 silly get     'x-served-by': 'cache-jfk1028-JFK',
+353 silly get     'x-cache': 'HIT',
+353 silly get     'x-cache-hits': '1',
+353 silly get     'x-timer': 'S1431904832.025916,VS0,VE0',
+353 silly get     vary: 'Accept' } ]
+354 verbose etag https://registry.npmjs.org/methods from cache
+355 verbose get saving methods to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\methods\.cache.json
+356 silly cache afterAdd methods@0.1.0
+357 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\methods\0.1.0\package\package.json not in flight; writing
+358 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\methods\0.1.0\package\package.json written
+359 http 304 https://registry.npmjs.org/cookie
+360 silly get cb [ 304,
+360 silly get   { date: 'Sun, 17 May 2015 23:20:33 GMT',
+360 silly get     via: '1.1 varnish',
+360 silly get     'cache-control': 'max-age=60',
+360 silly get     etag: '"G5M4HYVDKW9GMEDTP1YBYKFU"',
+360 silly get     age: '0',
+360 silly get     connection: 'keep-alive',
+360 silly get     'x-served-by': 'cache-jfk1030-JFK',
+360 silly get     'x-cache': 'HIT',
+360 silly get     'x-cache-hits': '1',
+360 silly get     'x-timer': 'S1431904833.126559,VS0,VE90',
+360 silly get     vary: 'Accept' } ]
+361 verbose etag https://registry.npmjs.org/cookie from cache
+362 verbose get saving cookie to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\cookie\.cache.json
+363 silly cache afterAdd cookie@0.1.0
+364 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\cookie\0.1.0\package\package.json not in flight; writing
+365 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\cookie\0.1.0\package\package.json written
+366 http 304 https://registry.npmjs.org/range-parser
+367 silly get cb [ 304,
+367 silly get   { date: 'Sun, 17 May 2015 23:20:39 GMT',
+367 silly get     via: '1.1 varnish',
+367 silly get     'cache-control': 'max-age=60',
+367 silly get     etag: '"3LNMXDEPINP8BRLYF8TQXB0MC"',
+367 silly get     age: '9',
+367 silly get     connection: 'keep-alive',
+367 silly get     'x-served-by': 'cache-jfk1034-JFK',
+367 silly get     'x-cache': 'HIT',
+367 silly get     'x-cache-hits': '1',
+367 silly get     'x-timer': 'S1431904839.453139,VS0,VE0',
+367 silly get     vary: 'Accept' } ]
+368 verbose etag https://registry.npmjs.org/range-parser from cache
+369 verbose get saving range-parser to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\range-parser\.cache.json
+370 silly cache afterAdd range-parser@0.0.4
+371 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\range-parser\0.0.4\package\package.json not in flight; writing
+372 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\range-parser\0.0.4\package\package.json written
+373 http 200 https://registry.npmjs.org/connect
+374 silly get cb [ 200,
+374 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+374 silly get     etag: '"CK8HLM7I4I2YIMOEHX0ENFQXN"',
+374 silly get     'content-type': 'application/json',
+374 silly get     'cache-control': 'max-age=60',
+374 silly get     'content-length': '322761',
+374 silly get     'accept-ranges': 'bytes',
+374 silly get     date: 'Sun, 17 May 2015 23:20:31 GMT',
+374 silly get     via: '1.1 varnish',
+374 silly get     age: '53',
+374 silly get     connection: 'keep-alive',
+374 silly get     'x-served-by': 'cache-jfk1030-JFK',
+374 silly get     'x-cache': 'HIT',
+374 silly get     'x-cache-hits': '1',
+374 silly get     'x-timer': 'S1431904831.404530,VS0,VE2',
+374 silly get     vary: 'Accept' } ]
+375 verbose get saving connect to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\connect\.cache.json
+376 silly mapToRegistry name connect
+377 silly mapToRegistry using default registry
+378 silly mapToRegistry registry https://registry.npmjs.org/
+379 silly mapToRegistry uri https://registry.npmjs.org/connect
+380 verbose addRemoteTarball https://registry.npmjs.org/connect/-/connect-2.12.0.tgz not in flight; adding
+381 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect/-/connect-2.12.0.tgz',
+381 verbose addRemoteTarball   '31d8fa0dcacdf1908d822bd2923be8a2d2a7ed9a' ]
+382 info retry fetch attempt 1 at 20:21:05
+383 info attempt registry request try #1 at 20:21:05
+384 http fetch GET https://registry.npmjs.org/connect/-/connect-2.12.0.tgz
+385 http fetch 200 https://registry.npmjs.org/connect/-/connect-2.12.0.tgz
+386 silly fetchAndShaCheck shasum 31d8fa0dcacdf1908d822bd2923be8a2d2a7ed9a
+387 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3428-5530c718\registry.npmjs.org\connect\-\connect-2.12.0.tgz not in flight; adding
+388 verbose addTmpTarball already have metadata; skipping unpack for connect@2.12.0
+389 silly cache afterAdd connect@2.12.0
+390 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\connect\2.12.0\package\package.json not in flight; writing
+391 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\connect\2.12.0\package\package.json written
+392 silly install resolved [ { name: 'mkdirp',
+392 silly install resolved     description: 'Recursively mkdir, like `mkdir -p`',
+392 silly install resolved     version: '0.3.5',
+392 silly install resolved     author:
+392 silly install resolved      { name: 'James Halliday',
+392 silly install resolved        email: 'mail@substack.net',
+392 silly install resolved        url: 'http://substack.net' },
+392 silly install resolved     main: './index',
+392 silly install resolved     keywords: [ 'mkdir', 'directory' ],
+392 silly install resolved     repository:
+392 silly install resolved      { type: 'git',
+392 silly install resolved        url: 'http://github.com/substack/node-mkdirp.git' },
+392 silly install resolved     scripts: { test: 'tap test/*.js' },
+392 silly install resolved     devDependencies: { tap: '~0.4.0' },
+392 silly install resolved     license: 'MIT',
+392 silly install resolved     _id: 'mkdirp@0.3.5',
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz' },
+392 silly install resolved     _from: 'mkdirp@0.3.5',
+392 silly install resolved     _npmVersion: '1.2.2',
+392 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+392 silly install resolved     maintainers: [ [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz',
+392 silly install resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+392 silly install resolved     readme: 'ERROR: No README data found!',
+392 silly install resolved     homepage: 'https://github.com/substack/node-mkdirp' },
+392 silly install resolved   { name: 'merge-descriptors',
+392 silly install resolved     description: 'Merge objects using descriptors',
+392 silly install resolved     version: '0.0.1',
+392 silly install resolved     author:
+392 silly install resolved      { name: 'Jonathan Ong',
+392 silly install resolved        email: 'me@jongleberry.com',
+392 silly install resolved        url: 'http://jongleberry.com' },
+392 silly install resolved     license: 'MIT',
+392 silly install resolved     repository:
+392 silly install resolved      { type: 'git',
+392 silly install resolved        url: 'https://github.com/jonathanong/merge-descriptors.git' },
+392 silly install resolved     bugs: { url: 'https://github.com/jonathanong/merge-descriptors/issues' },
+392 silly install resolved     scripts: { test: 'make test;' },
+392 silly install resolved     homepage: 'https://github.com/jonathanong/merge-descriptors',
+392 silly install resolved     _id: 'merge-descriptors@0.0.1',
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: '2ff0980c924cf81d0b5d1fb601177cb8bb56c0d0',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/merge-descriptors/-/merge-descriptors-0.0.1.tgz' },
+392 silly install resolved     _from: 'merge-descriptors@0.0.1',
+392 silly install resolved     _npmVersion: '1.3.13',
+392 silly install resolved     _npmUser: { name: 'jongleberry', email: 'jonathanrichardong@gmail.com' },
+392 silly install resolved     maintainers: [ [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: '2ff0980c924cf81d0b5d1fb601177cb8bb56c0d0',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-0.0.1.tgz',
+392 silly install resolved     readme: 'ERROR: No README data found!' },
+392 silly install resolved   { name: 'cookie-signature',
+392 silly install resolved     version: '1.0.1',
+392 silly install resolved     description: 'Sign and unsign cookies',
+392 silly install resolved     keywords: [ 'cookie', 'sign', 'unsign' ],
+392 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+392 silly install resolved     dependencies: {},
+392 silly install resolved     devDependencies: { mocha: '*', should: '*' },
+392 silly install resolved     main: 'index',
+392 silly install resolved     _id: 'cookie-signature@1.0.1',
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: '44e072148af01e6e8e24afbf12690d68ae698ecb',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.1.tgz' },
+392 silly install resolved     _from: 'cookie-signature@1.0.1',
+392 silly install resolved     _npmVersion: '1.2.14',
+392 silly install resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+392 silly install resolved     maintainers: [ [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: '44e072148af01e6e8e24afbf12690d68ae698ecb',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.1.tgz',
+392 silly install resolved     readme: 'ERROR: No README data found!' },
+392 silly install resolved   { name: 'fresh',
+392 silly install resolved     author:
+392 silly install resolved      { name: 'TJ Holowaychuk',
+392 silly install resolved        email: 'tj@vision-media.ca',
+392 silly install resolved        url: 'http://tjholowaychuk.com' },
+392 silly install resolved     description: 'HTTP response freshness testing',
+392 silly install resolved     version: '0.2.0',
+392 silly install resolved     main: 'index.js',
+392 silly install resolved     repository:
+392 silly install resolved      { type: 'git',
+392 silly install resolved        url: 'https://github.com/visionmedia/node-fresh.git' },
+392 silly install resolved     dependencies: {},
+392 silly install resolved     devDependencies: { mocha: '*', should: '*' },
+392 silly install resolved     bugs: { url: 'https://github.com/visionmedia/node-fresh/issues' },
+392 silly install resolved     _id: 'fresh@0.2.0',
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: 'bfd9402cf3df12c4a4c310c79f99a3dde13d34a7',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/fresh/-/fresh-0.2.0.tgz' },
+392 silly install resolved     _from: 'fresh@0.2.0',
+392 silly install resolved     _npmVersion: '1.3.4',
+392 silly install resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+392 silly install resolved     maintainers: [ [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: 'bfd9402cf3df12c4a4c310c79f99a3dde13d34a7',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/fresh/-/fresh-0.2.0.tgz',
+392 silly install resolved     readme: 'ERROR: No README data found!',
+392 silly install resolved     homepage: 'https://github.com/visionmedia/node-fresh' },
+392 silly install resolved   { name: 'commander',
+392 silly install resolved     version: '1.3.2',
+392 silly install resolved     description: 'the complete solution for node.js command-line programs',
+392 silly install resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+392 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+392 silly install resolved     repository:
+392 silly install resolved      { type: 'git',
+392 silly install resolved        url: 'https://github.com/visionmedia/commander.js.git' },
+392 silly install resolved     dependencies: { keypress: '0.1.x' },
+392 silly install resolved     devDependencies: { should: '>= 0.0.1' },
+392 silly install resolved     scripts: { test: 'make test' },
+392 silly install resolved     main: 'index',
+392 silly install resolved     engines: { node: '>= 0.6.x' },
+392 silly install resolved     bugs: { url: 'https://github.com/visionmedia/commander.js/issues' },
+392 silly install resolved     _id: 'commander@1.3.2',
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: '8a8f30ec670a6fdd64af52f1914b907d79ead5b5',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/commander/-/commander-1.3.2.tgz' },
+392 silly install resolved     _from: 'commander@1.3.2',
+392 silly install resolved     _npmVersion: '1.2.30',
+392 silly install resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+392 silly install resolved     maintainers: [ [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: '8a8f30ec670a6fdd64af52f1914b907d79ead5b5',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/commander/-/commander-1.3.2.tgz',
+392 silly install resolved     readme: 'ERROR: No README data found!',
+392 silly install resolved     homepage: 'https://github.com/visionmedia/commander.js' },
+392 silly install resolved   { name: 'send',
+392 silly install resolved     version: '0.1.4',
+392 silly install resolved     description: 'Better streaming static file server with Range and conditional-GET support',
+392 silly install resolved     keywords: [ 'static', 'file', 'server' ],
+392 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+392 silly install resolved     dependencies:
+392 silly install resolved      { debug: '*',
+392 silly install resolved        mime: '~1.2.9',
+392 silly install resolved        fresh: '0.2.0',
+392 silly install resolved        'range-parser': '0.0.4' },
+392 silly install resolved     devDependencies: { mocha: '*', should: '*', supertest: '0.0.1', connect: '2.x' },
+392 silly install resolved     scripts: { test: 'make test' },
+392 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/send.git' },
+392 silly install resolved     main: 'index',
+392 silly install resolved     bugs: { url: 'https://github.com/visionmedia/send/issues' },
+392 silly install resolved     _id: 'send@0.1.4',
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: 'be70d8d1be01de61821af13780b50345a4f71abd',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/send/-/send-0.1.4.tgz' },
+392 silly install resolved     _from: 'send@0.1.4',
+392 silly install resolved     _npmVersion: '1.3.4',
+392 silly install resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+392 silly install resolved     maintainers: [ [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: 'be70d8d1be01de61821af13780b50345a4f71abd',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/send/-/send-0.1.4.tgz',
+392 silly install resolved     readme: 'ERROR: No README data found!',
+392 silly install resolved     homepage: 'https://github.com/visionmedia/send' },
+392 silly install resolved   { author:
+392 silly install resolved      { name: 'Brian J. Brennan',
+392 silly install resolved        email: 'brianloveswords@gmail.com',
+392 silly install resolved        url: 'http://bjb.io' },
+392 silly install resolved     name: 'buffer-crc32',
+392 silly install resolved     description: 'A pure javascript CRC32 algorithm that plays nice with binary data',
+392 silly install resolved     version: '0.2.1',
+392 silly install resolved     contributors: [ [Object] ],
+392 silly install resolved     homepage: 'https://github.com/brianloveswords/buffer-crc32',
+392 silly install resolved     repository:
+392 silly install resolved      { type: 'git',
+392 silly install resolved        url: 'git://github.com/brianloveswords/buffer-crc32.git' },
+392 silly install resolved     main: 'index.js',
+392 silly install resolved     scripts: { test: 'tap tests/*.test.js' },
+392 silly install resolved     dependencies: {},
+392 silly install resolved     devDependencies: { tap: '~0.2.5' },
+392 silly install resolved     optionalDependencies: {},
+392 silly install resolved     engines: { node: '*' },
+392 silly install resolved     _id: 'buffer-crc32@0.2.1',
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: 'be3e5382fc02b6d6324956ac1af98aa98b08534c',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz' },
+392 silly install resolved     _npmVersion: '1.1.65',
+392 silly install resolved     _npmUser: { name: 'brianloveswords', email: 'brian@nyhacker.org' },
+392 silly install resolved     maintainers: [ [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: 'be3e5382fc02b6d6324956ac1af98aa98b08534c',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz',
+392 silly install resolved     _from: 'buffer-crc32@0.2.1',
+392 silly install resolved     bugs: { url: 'https://github.com/brianloveswords/buffer-crc32/issues' },
+392 silly install resolved     readme: 'ERROR: No README data found!' },
+392 silly install resolved   { name: 'debug',
+392 silly install resolved     version: '0.8.1',
+392 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+392 silly install resolved     description: 'small debugging utility',
+392 silly install resolved     keywords: [ 'debug', 'log', 'debugger' ],
+392 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+392 silly install resolved     dependencies: {},
+392 silly install resolved     devDependencies: { mocha: '*' },
+392 silly install resolved     main: 'lib/debug.js',
+392 silly install resolved     browser: './debug.js',
+392 silly install resolved     engines: { node: '*' },
+392 silly install resolved     files: [ 'lib/debug.js', 'debug.js' ],
+392 silly install resolved     component: { scripts: [Object] },
+392 silly install resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+392 silly install resolved     homepage: 'https://github.com/visionmedia/debug',
+392 silly install resolved     _id: 'debug@0.8.1',
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: '20ff4d26f5e422cb68a1bacbbb61039ad8c1c130',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/debug/-/debug-0.8.1.tgz' },
+392 silly install resolved     _from: 'debug@>=0.7.3 <1.0.0',
+392 silly install resolved     _npmVersion: '1.3.21',
+392 silly install resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+392 silly install resolved     maintainers: [ [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: '20ff4d26f5e422cb68a1bacbbb61039ad8c1c130',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-0.8.1.tgz',
+392 silly install resolved     readme: 'ERROR: No README data found!' },
+392 silly install resolved   { name: 'methods',
+392 silly install resolved     version: '0.1.0',
+392 silly install resolved     description: 'HTTP methods that node supports',
+392 silly install resolved     main: 'index.js',
+392 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+392 silly install resolved     keywords: [ 'http', 'methods' ],
+392 silly install resolved     author: { name: 'TJ Holowaychuk' },
+392 silly install resolved     license: 'MIT',
+392 silly install resolved     repository:
+392 silly install resolved      { type: 'git',
+392 silly install resolved        url: 'git://github.com/visionmedia/node-methods.git' },
+392 silly install resolved     bugs: { url: 'https://github.com/visionmedia/node-methods/issues' },
+392 silly install resolved     _id: 'methods@0.1.0',
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: '335d429eefd21b7bacf2e9c922a8d2bd14a30e4f',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/methods/-/methods-0.1.0.tgz' },
+392 silly install resolved     _from: 'methods@0.1.0',
+392 silly install resolved     _npmVersion: '1.3.8',
+392 silly install resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+392 silly install resolved     maintainers: [ [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: '335d429eefd21b7bacf2e9c922a8d2bd14a30e4f',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/methods/-/methods-0.1.0.tgz',
+392 silly install resolved     readme: 'ERROR: No README data found!',
+392 silly install resolved     homepage: 'https://github.com/visionmedia/node-methods' },
+392 silly install resolved   { author: { name: 'Roman Shtylman', email: 'shtylman@gmail.com' },
+392 silly install resolved     name: 'cookie',
+392 silly install resolved     description: 'cookie parsing and serialization',
+392 silly install resolved     version: '0.1.0',
+392 silly install resolved     repository:
+392 silly install resolved      { type: 'git',
+392 silly install resolved        url: 'git://github.com/shtylman/node-cookie.git' },
+392 silly install resolved     keywords: [ 'cookie', 'cookies' ],
+392 silly install resolved     main: 'index.js',
+392 silly install resolved     scripts: { test: 'mocha' },
+392 silly install resolved     dependencies: {},
+392 silly install resolved     devDependencies: { mocha: '1.x.x' },
+392 silly install resolved     optionalDependencies: {},
+392 silly install resolved     engines: { node: '*' },
+392 silly install resolved     _id: 'cookie@0.1.0',
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: '90eb469ddce905c866de687efc43131d8801f9d0',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz' },
+392 silly install resolved     _from: 'cookie@0.1.0',
+392 silly install resolved     _npmVersion: '1.2.18',
+392 silly install resolved     _npmUser: { name: 'shtylman', email: 'shtylman@gmail.com' },
+392 silly install resolved     maintainers: [ [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: '90eb469ddce905c866de687efc43131d8801f9d0',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz',
+392 silly install resolved     bugs: { url: 'https://github.com/shtylman/node-cookie/issues' },
+392 silly install resolved     readme: 'ERROR: No README data found!',
+392 silly install resolved     homepage: 'https://github.com/shtylman/node-cookie' },
+392 silly install resolved   { name: 'range-parser',
+392 silly install resolved     author:
+392 silly install resolved      { name: 'TJ Holowaychuk',
+392 silly install resolved        email: 'tj@vision-media.ca',
+392 silly install resolved        url: 'http://tjholowaychuk.com' },
+392 silly install resolved     description: 'Range header field string parser',
+392 silly install resolved     version: '0.0.4',
+392 silly install resolved     main: 'index.js',
+392 silly install resolved     dependencies: {},
+392 silly install resolved     devDependencies: { mocha: '*', should: '*' },
+392 silly install resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+392 silly install resolved     _id: 'range-parser@0.0.4',
+392 silly install resolved     optionalDependencies: {},
+392 silly install resolved     engines: { node: '*' },
+392 silly install resolved     _engineSupported: true,
+392 silly install resolved     _npmVersion: '1.1.19',
+392 silly install resolved     _nodeVersion: 'v0.6.16',
+392 silly install resolved     _defaultsLoaded: true,
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: 'c0427ffef51c10acba0782a46c9602e744ff620b',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/range-parser/-/range-parser-0.0.4.tgz' },
+392 silly install resolved     maintainers: [ [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: 'c0427ffef51c10acba0782a46c9602e744ff620b',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/range-parser/-/range-parser-0.0.4.tgz',
+392 silly install resolved     _from: 'range-parser@0.0.4',
+392 silly install resolved     readme: 'ERROR: No README data found!' },
+392 silly install resolved   { name: 'connect',
+392 silly install resolved     version: '2.12.0',
+392 silly install resolved     description: 'High performance middleware framework',
+392 silly install resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+392 silly install resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+392 silly install resolved     author:
+392 silly install resolved      { name: 'TJ Holowaychuk',
+392 silly install resolved        email: 'tj@vision-media.ca',
+392 silly install resolved        url: 'http://tjholowaychuk.com' },
+392 silly install resolved     dependencies:
+392 silly install resolved      { batch: '0.5.0',
+392 silly install resolved        qs: '0.6.6',
+392 silly install resolved        'cookie-signature': '1.0.1',
+392 silly install resolved        'buffer-crc32': '0.2.1',
+392 silly install resolved        cookie: '0.1.0',
+392 silly install resolved        send: '0.1.4',
+392 silly install resolved        bytes: '0.2.1',
+392 silly install resolved        fresh: '0.2.0',
+392 silly install resolved        pause: '0.0.1',
+392 silly install resolved        uid2: '0.0.3',
+392 silly install resolved        debug: '>= 0.7.3 < 1',
+392 silly install resolved        methods: '0.1.0',
+392 silly install resolved        'raw-body': '1.1.2',
+392 silly install resolved        negotiator: '0.3.0',
+392 silly install resolved        multiparty: '2.2.0' },
+392 silly install resolved     devDependencies:
+392 silly install resolved      { should: '>= 2.0.2 < 3',
+392 silly install resolved        mocha: '>= 1.13.0 < 2',
+392 silly install resolved        jade: '>= 0.35.0 < 1',
+392 silly install resolved        dox: '>= 0.4.4 < 1' },
+392 silly install resolved     licenses: [ [Object] ],
+392 silly install resolved     main: 'index',
+392 silly install resolved     engines: { node: '>= 0.8.0' },
+392 silly install resolved     scripts: { test: 'make' },
+392 silly install resolved     bugs: { url: 'https://github.com/senchalabs/connect/issues' },
+392 silly install resolved     homepage: 'https://github.com/senchalabs/connect',
+392 silly install resolved     _id: 'connect@2.12.0',
+392 silly install resolved     dist:
+392 silly install resolved      { shasum: '31d8fa0dcacdf1908d822bd2923be8a2d2a7ed9a',
+392 silly install resolved        tarball: 'http://registry.npmjs.org/connect/-/connect-2.12.0.tgz' },
+392 silly install resolved     _from: 'connect@2.12.0',
+392 silly install resolved     _npmVersion: '1.3.14',
+392 silly install resolved     _npmUser: { name: 'jongleberry', email: 'jonathanrichardong@gmail.com' },
+392 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+392 silly install resolved     directories: {},
+392 silly install resolved     _shasum: '31d8fa0dcacdf1908d822bd2923be8a2d2a7ed9a',
+392 silly install resolved     _resolved: 'https://registry.npmjs.org/connect/-/connect-2.12.0.tgz' } ]
+393 info install mkdirp@0.3.5 into c:\socket.io\examples\chat\node_modules\express
+394 info install merge-descriptors@0.0.1 into c:\socket.io\examples\chat\node_modules\express
+395 info install cookie-signature@1.0.1 into c:\socket.io\examples\chat\node_modules\express
+396 info install fresh@0.2.0 into c:\socket.io\examples\chat\node_modules\express
+397 info install commander@1.3.2 into c:\socket.io\examples\chat\node_modules\express
+398 info install send@0.1.4 into c:\socket.io\examples\chat\node_modules\express
+399 info install buffer-crc32@0.2.1 into c:\socket.io\examples\chat\node_modules\express
+400 info install debug@0.8.1 into c:\socket.io\examples\chat\node_modules\express
+401 info install methods@0.1.0 into c:\socket.io\examples\chat\node_modules\express
+402 info install cookie@0.1.0 into c:\socket.io\examples\chat\node_modules\express
+403 info install range-parser@0.0.4 into c:\socket.io\examples\chat\node_modules\express
+404 info install connect@2.12.0 into c:\socket.io\examples\chat\node_modules\express
+405 info installOne mkdirp@0.3.5
+406 verbose installOne of mkdirp to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+407 info installOne merge-descriptors@0.0.1
+408 verbose installOne of merge-descriptors to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+409 info installOne cookie-signature@1.0.1
+410 verbose installOne of cookie-signature to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+411 info installOne fresh@0.2.0
+412 verbose installOne of fresh to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+413 info installOne commander@1.3.2
+414 verbose installOne of commander to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+415 info installOne send@0.1.4
+416 verbose installOne of send to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+417 info installOne buffer-crc32@0.2.1
+418 verbose installOne of buffer-crc32 to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+419 info installOne debug@0.8.1
+420 verbose installOne of debug to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+421 info installOne methods@0.1.0
+422 verbose installOne of methods to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+423 info installOne cookie@0.1.0
+424 verbose installOne of cookie to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+425 info installOne range-parser@0.0.4
+426 verbose installOne of range-parser to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+427 info installOne connect@2.12.0
+428 verbose installOne of connect to c:\socket.io\examples\chat\node_modules\express not in flight; installing
+429 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\mkdirp-72853f7aabad36a7.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\mkdirp
+430 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\cookie-signature-78585bda058dd23c.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\cookie-signature
+431 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\send-c5ce59ee2cde5d94.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\send
+432 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\buffer-crc32-4f78cf7d9b2ed1ff.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\buffer-crc32
+433 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\methods-a34c275561086197.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\methods
+434 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\cookie-7f0cddaac86488c6.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\cookie
+435 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\commander-b51fd698e1d5c999.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\commander
+436 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\fresh-8b3f2551b5c30cc3.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\fresh
+437 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\merge-descriptors-1accf073cf15fc85.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\merge-descriptors
+438 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\debug-2c84ee3f450c1893.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\debug
+439 silly install write writing mkdirp 0.3.5 to c:\socket.io\examples\chat\node_modules\express\node_modules\mkdirp
+440 silly cache addNamed cb mkdirp@0.3.5
+441 verbose unbuild node_modules\express\node_modules\mkdirp
+442 silly install write writing cookie-signature 1.0.1 to c:\socket.io\examples\chat\node_modules\express\node_modules\cookie-signature
+443 silly cache addNamed cb cookie-signature@1.0.1
+444 verbose unbuild node_modules\express\node_modules\cookie-signature
+445 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\range-parser-78d814876f16a87c.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\range-parser
+446 silly install write writing send 0.1.4 to c:\socket.io\examples\chat\node_modules\express\node_modules\send
+447 silly cache addNamed cb send@0.1.4
+448 verbose unbuild node_modules\express\node_modules\send
+449 silly install write writing buffer-crc32 0.2.1 to c:\socket.io\examples\chat\node_modules\express\node_modules\buffer-crc32
+450 silly cache addNamed cb buffer-crc32@0.2.1
+451 verbose unbuild node_modules\express\node_modules\buffer-crc32
+452 silly install write writing methods 0.1.0 to c:\socket.io\examples\chat\node_modules\express\node_modules\methods
+453 silly cache addNamed cb methods@0.1.0
+454 verbose unbuild node_modules\express\node_modules\methods
+455 silly install write writing cookie 0.1.0 to c:\socket.io\examples\chat\node_modules\express\node_modules\cookie
+456 silly cache addNamed cb cookie@0.1.0
+457 verbose unbuild node_modules\express\node_modules\cookie
+458 silly install write writing commander 1.3.2 to c:\socket.io\examples\chat\node_modules\express\node_modules\commander
+459 silly cache addNamed cb commander@1.3.2
+460 verbose unbuild node_modules\express\node_modules\commander
+461 silly install write writing fresh 0.2.0 to c:\socket.io\examples\chat\node_modules\express\node_modules\fresh
+462 silly cache addNamed cb fresh@0.2.0
+463 verbose unbuild node_modules\express\node_modules\fresh
+464 silly install write writing merge-descriptors 0.0.1 to c:\socket.io\examples\chat\node_modules\express\node_modules\merge-descriptors
+465 silly cache addNamed cb merge-descriptors@0.0.1
+466 verbose unbuild node_modules\express\node_modules\merge-descriptors
+467 silly install write writing debug 0.8.1 to c:\socket.io\examples\chat\node_modules\express\node_modules\debug
+468 silly cache addNamed cb debug@0.8.1
+469 verbose unbuild node_modules\express\node_modules\debug
+470 silly install write writing range-parser 0.0.4 to c:\socket.io\examples\chat\node_modules\express\node_modules\range-parser
+471 silly cache addNamed cb range-parser@0.0.4
+472 verbose unbuild node_modules\express\node_modules\range-parser
+473 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\connect-8d87ab2e3fc48404.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\connect
+474 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\mkdirp is being purged from base c:\socket.io\examples\chat
+475 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\mkdirp
+476 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\cookie-signature is being purged from base c:\socket.io\examples\chat
+477 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\cookie-signature
+478 silly install write writing connect 2.12.0 to c:\socket.io\examples\chat\node_modules\express\node_modules\connect
+479 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\send is being purged from base c:\socket.io\examples\chat
+480 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\send
+481 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\buffer-crc32 is being purged from base c:\socket.io\examples\chat
+482 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\buffer-crc32
+483 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\methods is being purged from base c:\socket.io\examples\chat
+484 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\methods
+485 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\cookie is being purged from base c:\socket.io\examples\chat
+486 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\cookie
+487 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\commander is being purged from base c:\socket.io\examples\chat
+488 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\commander
+489 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\fresh is being purged from base c:\socket.io\examples\chat
+490 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\fresh
+491 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\merge-descriptors is being purged from base c:\socket.io\examples\chat
+492 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\merge-descriptors
+493 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\debug is being purged from base c:\socket.io\examples\chat
+494 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\debug
+495 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+496 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\mkdirp
+497 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\mkdirp is being purged
+498 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\mkdirp
+499 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\cookie-signature\1.0.1\package.tgz
+500 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\cookie-signature
+501 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\cookie-signature is being purged
+502 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\cookie-signature
+503 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\range-parser is being purged from base c:\socket.io\examples\chat
+504 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\range-parser
+505 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\send\0.1.4\package.tgz
+506 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\send
+507 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\send is being purged
+508 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\send
+509 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\buffer-crc32\0.2.1\package.tgz
+510 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\buffer-crc32
+511 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\buffer-crc32 is being purged
+512 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\buffer-crc32
+513 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\methods\0.1.0\package.tgz
+514 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\methods
+515 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\methods is being purged
+516 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\methods
+517 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\cookie\0.1.0\package.tgz
+518 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\cookie
+519 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\cookie is being purged
+520 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\cookie
+521 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\commander\1.3.2\package.tgz
+522 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\commander
+523 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\commander is being purged
+524 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\commander
+525 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\fresh\0.2.0\package.tgz
+526 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\fresh
+527 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\fresh is being purged
+528 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\fresh
+529 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\merge-descriptors\0.0.1\package.tgz
+530 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\merge-descriptors
+531 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\merge-descriptors is being purged
+532 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\merge-descriptors
+533 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\debug\0.8.1\package.tgz
+534 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\debug
+535 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\debug is being purged
+536 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\debug
+537 silly gunzTarPerm modes [ '777', '666' ]
+538 silly gunzTarPerm modes [ '777', '666' ]
+539 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\range-parser\0.0.4\package.tgz
+540 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\range-parser
+541 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\range-parser is being purged
+542 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\range-parser
+543 silly gunzTarPerm modes [ '777', '666' ]
+544 silly gunzTarPerm modes [ '777', '666' ]
+545 silly gunzTarPerm modes [ '777', '666' ]
+546 silly gunzTarPerm modes [ '777', '666' ]
+547 silly gunzTarPerm modes [ '777', '666' ]
+548 silly gunzTarPerm modes [ '777', '666' ]
+549 silly gunzTarPerm modes [ '777', '666' ]
+550 silly gunzTarPerm modes [ '777', '666' ]
+551 silly gunzTarPerm modes [ '777', '666' ]
+552 silly cache addNamed cb connect@2.12.0
+553 verbose unbuild node_modules\express\node_modules\connect
+554 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\connect is being purged from base c:\socket.io\examples\chat
+555 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\connect
+556 silly gunzTarPerm extractEntry package.json
+557 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+558 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\connect\2.12.0\package.tgz
+559 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\connect
+560 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\connect is being purged
+561 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\connect
+562 silly gunzTarPerm extractEntry package.json
+563 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+564 silly gunzTarPerm extractEntry package.json
+565 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+566 silly gunzTarPerm extractEntry package.json
+567 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+568 silly gunzTarPerm extractEntry package.json
+569 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+570 silly gunzTarPerm modes [ '777', '666' ]
+571 silly gunzTarPerm extractEntry package.json
+572 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+573 silly gunzTarPerm extractEntry package.json
+574 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+575 silly gunzTarPerm extractEntry package.json
+576 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+577 silly gunzTarPerm extractEntry package.json
+578 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+579 silly gunzTarPerm extractEntry package.json
+580 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+581 silly gunzTarPerm extractEntry .npmignore
+582 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+583 silly gunzTarPerm extractEntry index.js
+584 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+585 silly gunzTarPerm extractEntry .npmignore
+586 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+587 silly gunzTarPerm extractEntry index.js
+588 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+589 silly gunzTarPerm extractEntry .npmignore
+590 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+591 silly gunzTarPerm extractEntry README.md
+592 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+593 silly gunzTarPerm extractEntry .npmignore
+594 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+595 silly gunzTarPerm extractEntry README.md
+596 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+597 silly gunzTarPerm extractEntry debug.js
+598 silly gunzTarPerm modified mode [ 'debug.js', 420, 438 ]
+599 silly gunzTarPerm extractEntry Readme.md
+600 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+601 silly gunzTarPerm extractEntry .npmignore
+602 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+603 silly gunzTarPerm extractEntry README.md
+604 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+605 silly gunzTarPerm extractEntry .npmignore
+606 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+607 silly gunzTarPerm extractEntry index.js
+608 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+609 silly gunzTarPerm extractEntry .npmignore
+610 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+611 silly gunzTarPerm extractEntry LICENSE
+612 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+613 silly gunzTarPerm extractEntry index.js
+614 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+615 silly gunzTarPerm extractEntry History.md
+616 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+617 silly gunzTarPerm extractEntry Readme.md
+618 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+619 silly gunzTarPerm extractEntry .npmignore
+620 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+621 silly gunzTarPerm extractEntry index.js
+622 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+623 silly gunzTarPerm extractEntry package.json
+624 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+625 silly gunzTarPerm extractEntry package.json
+626 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+627 silly gunzTarPerm extractEntry History.md
+628 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+629 silly gunzTarPerm extractEntry Makefile
+630 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+631 silly gunzTarPerm extractEntry .npmignore
+632 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+633 silly gunzTarPerm extractEntry LICENSE
+634 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+635 silly gunzTarPerm extractEntry LICENSE
+636 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+637 silly gunzTarPerm extractEntry index.js
+638 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+639 silly gunzTarPerm extractEntry index.js
+640 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+641 silly gunzTarPerm extractEntry History.md
+642 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+643 silly gunzTarPerm extractEntry History.md
+644 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+645 silly gunzTarPerm extractEntry Makefile
+646 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+647 silly gunzTarPerm extractEntry History.md
+648 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+649 silly gunzTarPerm extractEntry Makefile
+650 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+651 silly gunzTarPerm extractEntry index.js
+652 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+653 silly gunzTarPerm extractEntry .travis.yml
+654 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+655 silly gunzTarPerm extractEntry index.js
+656 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+657 silly gunzTarPerm extractEntry component.json
+658 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+659 silly gunzTarPerm extractEntry lib/debug.js
+660 silly gunzTarPerm modified mode [ 'lib/debug.js', 420, 438 ]
+661 silly gunzTarPerm extractEntry History.md
+662 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+663 silly gunzTarPerm extractEntry Makefile
+664 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+665 silly gunzTarPerm extractEntry index.js
+666 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+667 silly gunzTarPerm extractEntry examples/pow.js
+668 silly gunzTarPerm modified mode [ 'examples/pow.js', 420, 438 ]
+669 silly gunzTarPerm extractEntry Readme.md
+670 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+671 silly gunzTarPerm extractEntry .travis.yml
+672 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+673 silly gunzTarPerm extractEntry test/parse.js
+674 silly gunzTarPerm modified mode [ 'test/parse.js', 420, 438 ]
+675 silly gunzTarPerm extractEntry Readme.md
+676 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+677 silly gunzTarPerm extractEntry lib/send.js
+678 silly gunzTarPerm modified mode [ 'lib/send.js', 420, 438 ]
+679 silly gunzTarPerm extractEntry Readme.md
+680 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+681 silly gunzTarPerm extractEntry Readme.md
+682 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+683 silly gunzTarPerm extractEntry tests/crc.test.js
+684 silly gunzTarPerm modified mode [ 'tests/crc.test.js', 420, 438 ]
+685 silly gunzTarPerm extractEntry Readme.md
+686 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+687 silly gunzTarPerm extractEntry index.js
+688 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+689 silly gunzTarPerm extractEntry .travis.yml
+690 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+691 silly gunzTarPerm extractEntry readme.markdown
+692 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+693 silly gunzTarPerm extractEntry test/perm.js
+694 silly gunzTarPerm modified mode [ 'test/perm.js', 420, 438 ]
+695 silly gunzTarPerm extractEntry lib/utils.js
+696 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+697 silly gunzTarPerm extractEntry Readme.md
+698 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+699 silly gunzTarPerm extractEntry lib/cache.js
+700 silly gunzTarPerm modified mode [ 'lib/cache.js', 420, 438 ]
+701 silly gunzTarPerm extractEntry test/serialize.js
+702 silly gunzTarPerm modified mode [ 'test/serialize.js', 420, 438 ]
+703 silly gunzTarPerm extractEntry test/mocha.opts
+704 silly gunzTarPerm modified mode [ 'test/mocha.opts', 420, 438 ]
+705 silly gunzTarPerm extractEntry test/perm_sync.js
+706 silly gunzTarPerm modified mode [ 'test/perm_sync.js', 420, 438 ]
+707 silly gunzTarPerm extractEntry test/race.js
+708 silly gunzTarPerm modified mode [ 'test/race.js', 420, 438 ]
+709 silly gunzTarPerm extractEntry lib/connect.js
+710 silly gunzTarPerm modified mode [ 'lib/connect.js', 420, 438 ]
+711 silly gunzTarPerm extractEntry lib/index.js
+712 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+713 silly gunzTarPerm extractEntry test/rel.js
+714 silly gunzTarPerm modified mode [ 'test/rel.js', 420, 438 ]
+715 silly gunzTarPerm extractEntry lib/patch.js
+716 silly gunzTarPerm modified mode [ 'lib/patch.js', 420, 438 ]
+717 silly gunzTarPerm extractEntry test/return.js
+718 silly gunzTarPerm modified mode [ 'test/return.js', 420, 438 ]
+719 silly gunzTarPerm extractEntry test/clobber.js
+720 silly gunzTarPerm modified mode [ 'test/clobber.js', 420, 438 ]
+721 info preinstall methods@0.1.0
+722 silly gunzTarPerm extractEntry lib/proto.js
+723 silly gunzTarPerm modified mode [ 'lib/proto.js', 420, 438 ]
+724 silly gunzTarPerm extractEntry lib/utils.js
+725 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+726 info preinstall merge-descriptors@0.0.1
+727 silly install resolved []
+728 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\methods
+729 info build c:\socket.io\examples\chat\node_modules\express\node_modules\methods
+730 verbose linkStuff [ false,
+730 verbose linkStuff   false,
+730 verbose linkStuff   false,
+730 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules' ]
+731 info linkStuff methods@0.1.0
+732 verbose linkBins methods@0.1.0
+733 verbose linkMans methods@0.1.0
+734 verbose rebuildBundles methods@0.1.0
+735 info install methods@0.1.0
+736 silly gunzTarPerm extractEntry test/root.js
+737 silly gunzTarPerm modified mode [ 'test/root.js', 420, 438 ]
+738 silly gunzTarPerm extractEntry test/umask.js
+739 silly gunzTarPerm modified mode [ 'test/umask.js', 420, 438 ]
+740 info postinstall methods@0.1.0
+741 silly install resolved []
+742 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\merge-descriptors
+743 info build c:\socket.io\examples\chat\node_modules\express\node_modules\merge-descriptors
+744 verbose linkStuff [ false,
+744 verbose linkStuff   false,
+744 verbose linkStuff   false,
+744 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules' ]
+745 info linkStuff merge-descriptors@0.0.1
+746 verbose linkBins merge-descriptors@0.0.1
+747 verbose linkMans merge-descriptors@0.0.1
+748 verbose rebuildBundles merge-descriptors@0.0.1
+749 info install merge-descriptors@0.0.1
+750 info preinstall cookie-signature@1.0.1
+751 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\methods-a34c275561086197.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\methods
+752 info postinstall merge-descriptors@0.0.1
+753 silly gunzTarPerm extractEntry lib/middleware/basicAuth.js
+754 silly gunzTarPerm modified mode [ 'lib/middleware/basicAuth.js', 420, 438 ]
+755 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+756 silly gunzTarPerm modified mode [ 'lib/middleware/errorHandler.js', 420, 438 ]
+757 info preinstall debug@0.8.1
+758 info preinstall fresh@0.2.0
+759 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\merge-descriptors-1accf073cf15fc85.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\merge-descriptors
+760 silly install resolved []
+761 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\cookie-signature
+762 info build c:\socket.io\examples\chat\node_modules\express\node_modules\cookie-signature
+763 verbose linkStuff [ false,
+763 verbose linkStuff   false,
+763 verbose linkStuff   false,
+763 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules' ]
+764 info linkStuff cookie-signature@1.0.1
+765 verbose linkBins cookie-signature@1.0.1
+766 verbose linkMans cookie-signature@1.0.1
+767 verbose rebuildBundles cookie-signature@1.0.1
+768 info install cookie-signature@1.0.1
+769 silly install resolved []
+770 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\debug
+771 info build c:\socket.io\examples\chat\node_modules\express\node_modules\debug
+772 verbose linkStuff [ false,
+772 verbose linkStuff   false,
+772 verbose linkStuff   false,
+772 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules' ]
+773 info linkStuff debug@0.8.1
+774 verbose linkBins debug@0.8.1
+775 verbose linkMans debug@0.8.1
+776 verbose rebuildBundles debug@0.8.1
+777 info postinstall cookie-signature@1.0.1
+778 silly install resolved []
+779 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\fresh
+780 info build c:\socket.io\examples\chat\node_modules\express\node_modules\fresh
+781 verbose linkStuff [ false,
+781 verbose linkStuff   false,
+781 verbose linkStuff   false,
+781 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules' ]
+782 info linkStuff fresh@0.2.0
+783 verbose linkBins fresh@0.2.0
+784 verbose linkMans fresh@0.2.0
+785 verbose rebuildBundles fresh@0.2.0
+786 info install debug@0.8.1
+787 silly gunzTarPerm extractEntry test/sync.js
+788 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 438 ]
+789 silly gunzTarPerm extractEntry test/chmod.js
+790 silly gunzTarPerm modified mode [ 'test/chmod.js', 420, 438 ]
+791 info install fresh@0.2.0
+792 info postinstall debug@0.8.1
+793 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\cookie-signature-78585bda058dd23c.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\cookie-signature
+794 info postinstall fresh@0.2.0
+795 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\debug-2c84ee3f450c1893.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\debug
+796 info preinstall buffer-crc32@0.2.1
+797 silly gunzTarPerm extractEntry lib/middleware/favicon.js
+798 silly gunzTarPerm modified mode [ 'lib/middleware/favicon.js', 420, 438 ]
+799 silly gunzTarPerm extractEntry lib/middleware/json.js
+800 silly gunzTarPerm modified mode [ 'lib/middleware/json.js', 420, 438 ]
+801 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\fresh-8b3f2551b5c30cc3.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\fresh
+802 silly gunzTarPerm extractEntry test/umask_sync.js
+803 silly gunzTarPerm modified mode [ 'test/umask_sync.js', 420, 438 ]
+804 silly gunzTarPerm extractEntry test/return_sync.js
+805 silly gunzTarPerm modified mode [ 'test/return_sync.js', 420, 438 ]
+806 silly install resolved []
+807 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\buffer-crc32
+808 info build c:\socket.io\examples\chat\node_modules\express\node_modules\buffer-crc32
+809 verbose linkStuff [ false,
+809 verbose linkStuff   false,
+809 verbose linkStuff   false,
+809 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules' ]
+810 info linkStuff buffer-crc32@0.2.1
+811 verbose linkBins buffer-crc32@0.2.1
+812 verbose linkMans buffer-crc32@0.2.1
+813 verbose rebuildBundles buffer-crc32@0.2.1
+814 info install buffer-crc32@0.2.1
+815 info postinstall buffer-crc32@0.2.1
+816 info preinstall range-parser@0.0.4
+817 silly gunzTarPerm extractEntry lib/middleware/limit.js
+818 silly gunzTarPerm modified mode [ 'lib/middleware/limit.js', 420, 438 ]
+819 silly gunzTarPerm extractEntry lib/middleware/directory.js
+820 silly gunzTarPerm modified mode [ 'lib/middleware/directory.js', 420, 438 ]
+821 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\buffer-crc32-4f78cf7d9b2ed1ff.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\buffer-crc32
+822 silly install resolved []
+823 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\range-parser
+824 info build c:\socket.io\examples\chat\node_modules\express\node_modules\range-parser
+825 verbose linkStuff [ false,
+825 verbose linkStuff   false,
+825 verbose linkStuff   false,
+825 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules' ]
+826 info linkStuff range-parser@0.0.4
+827 verbose linkBins range-parser@0.0.4
+828 verbose linkMans range-parser@0.0.4
+829 verbose rebuildBundles range-parser@0.0.4
+830 info install range-parser@0.0.4
+831 silly gunzTarPerm extractEntry test/mkdirp.js
+832 silly gunzTarPerm modified mode [ 'test/mkdirp.js', 420, 438 ]
+833 silly gunzTarPerm extractEntry .travis.yml
+834 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+835 info postinstall range-parser@0.0.4
+836 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\range-parser-78d814876f16a87c.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\range-parser
+837 info preinstall cookie@0.1.0
+838 silly gunzTarPerm extractEntry lib/middleware/methodOverride.js
+839 silly gunzTarPerm modified mode [ 'lib/middleware/methodOverride.js', 420, 438 ]
+840 silly gunzTarPerm extractEntry lib/middleware/multipart.js
+841 silly gunzTarPerm modified mode [ 'lib/middleware/multipart.js', 420, 438 ]
+842 silly install resolved []
+843 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\cookie
+844 info build c:\socket.io\examples\chat\node_modules\express\node_modules\cookie
+845 verbose linkStuff [ false,
+845 verbose linkStuff   false,
+845 verbose linkStuff   false,
+845 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules' ]
+846 info linkStuff cookie@0.1.0
+847 verbose linkBins cookie@0.1.0
+848 verbose linkMans cookie@0.1.0
+849 verbose rebuildBundles cookie@0.1.0
+850 info install cookie@0.1.0
+851 info preinstall send@0.1.4
+852 info postinstall cookie@0.1.0
+853 silly prepareForInstallMany adding mime@~1.2.9 from send dependencies
+854 silly cache add args [ 'mime@~1.2.9', null ]
+855 verbose cache add spec mime@~1.2.9
+856 silly cache add parsed spec { raw: 'mime@~1.2.9',
+856 silly cache add   scope: null,
+856 silly cache add   name: 'mime',
+856 silly cache add   rawSpec: '~1.2.9',
+856 silly cache add   spec: '>=1.2.9 <1.3.0',
+856 silly cache add   type: 'range' }
+857 verbose addNamed mime@>=1.2.9 <1.3.0
+858 silly addNamed semver.valid null
+859 silly addNamed semver.validRange >=1.2.9 <1.3.0
+860 silly addNameRange { name: 'mime', range: '>=1.2.9 <1.3.0', hasData: false }
+861 silly mapToRegistry name mime
+862 silly mapToRegistry using default registry
+863 silly mapToRegistry registry https://registry.npmjs.org/
+864 silly mapToRegistry uri https://registry.npmjs.org/mime
+865 verbose addNameRange registry:https://registry.npmjs.org/mime not in flight; fetching
+866 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\cookie-7f0cddaac86488c6.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\cookie
+867 silly gunzTarPerm extractEntry lib/middleware/query.js
+868 silly gunzTarPerm modified mode [ 'lib/middleware/query.js', 420, 438 ]
+869 silly gunzTarPerm extractEntry lib/middleware/responseTime.js
+870 silly gunzTarPerm modified mode [ 'lib/middleware/responseTime.js', 420, 438 ]
+871 info preinstall commander@1.3.2
+872 silly prepareForInstallMany adding keypress@0.1.x from commander dependencies
+873 silly gunzTarPerm extractEntry lib/middleware/urlencoded.js
+874 silly gunzTarPerm modified mode [ 'lib/middleware/urlencoded.js', 420, 438 ]
+875 silly gunzTarPerm extractEntry lib/middleware/csrf.js
+876 silly gunzTarPerm modified mode [ 'lib/middleware/csrf.js', 420, 438 ]
+877 silly cache add args [ 'keypress@0.1.x', null ]
+878 verbose cache add spec keypress@0.1.x
+879 silly cache add parsed spec { raw: 'keypress@0.1.x',
+879 silly cache add   scope: null,
+879 silly cache add   name: 'keypress',
+879 silly cache add   rawSpec: '0.1.x',
+879 silly cache add   spec: '>=0.1.0 <0.2.0',
+879 silly cache add   type: 'range' }
+880 verbose addNamed keypress@>=0.1.0 <0.2.0
+881 silly addNamed semver.valid null
+882 silly addNamed semver.validRange >=0.1.0 <0.2.0
+883 silly addNameRange { name: 'keypress', range: '>=0.1.0 <0.2.0', hasData: false }
+884 silly mapToRegistry name keypress
+885 silly mapToRegistry using default registry
+886 silly mapToRegistry registry https://registry.npmjs.org/
+887 silly mapToRegistry uri https://registry.npmjs.org/keypress
+888 verbose addNameRange registry:https://registry.npmjs.org/keypress not in flight; fetching
+889 verbose request uri https://registry.npmjs.org/keypress
+890 verbose request no auth needed
+891 info attempt registry request try #1 at 20:21:09
+892 http request GET https://registry.npmjs.org/keypress
+893 silly gunzTarPerm extractEntry lib/middleware/session.js
+894 silly gunzTarPerm modified mode [ 'lib/middleware/session.js', 420, 438 ]
+895 silly gunzTarPerm extractEntry lib/middleware/cookieSession.js
+896 silly gunzTarPerm modified mode [ 'lib/middleware/cookieSession.js', 420, 438 ]
+897 silly gunzTarPerm extractEntry lib/middleware/static.js
+898 silly gunzTarPerm modified mode [ 'lib/middleware/static.js', 420, 438 ]
+899 silly gunzTarPerm extractEntry lib/middleware/cookieParser.js
+900 silly gunzTarPerm modified mode [ 'lib/middleware/cookieParser.js', 420, 438 ]
+901 silly gunzTarPerm extractEntry lib/middleware/staticCache.js
+902 silly gunzTarPerm modified mode [ 'lib/middleware/staticCache.js', 420, 438 ]
+903 silly gunzTarPerm extractEntry lib/middleware/compress.js
+904 silly gunzTarPerm modified mode [ 'lib/middleware/compress.js', 420, 438 ]
+905 silly gunzTarPerm extractEntry lib/middleware/timeout.js
+906 silly gunzTarPerm modified mode [ 'lib/middleware/timeout.js', 420, 438 ]
+907 silly gunzTarPerm extractEntry lib/middleware/bodyParser.js
+908 silly gunzTarPerm modified mode [ 'lib/middleware/bodyParser.js', 420, 438 ]
+909 silly gunzTarPerm extractEntry lib/middleware/vhost.js
+910 silly gunzTarPerm modified mode [ 'lib/middleware/vhost.js', 420, 438 ]
+911 silly gunzTarPerm extractEntry lib/middleware/logger.js
+912 silly gunzTarPerm modified mode [ 'lib/middleware/logger.js', 420, 438 ]
+913 silly gunzTarPerm extractEntry lib/middleware/session/cookie.js
+914 silly gunzTarPerm modified mode [ 'lib/middleware/session/cookie.js', 420, 438 ]
+915 silly gunzTarPerm extractEntry lib/middleware/session/memory.js
+916 silly gunzTarPerm modified mode [ 'lib/middleware/session/memory.js', 420, 438 ]
+917 silly gunzTarPerm extractEntry lib/middleware/session/session.js
+918 silly gunzTarPerm modified mode [ 'lib/middleware/session/session.js', 420, 438 ]
+919 silly gunzTarPerm extractEntry lib/middleware/session/store.js
+920 silly gunzTarPerm modified mode [ 'lib/middleware/session/store.js', 420, 438 ]
+921 silly gunzTarPerm extractEntry lib/public/directory.html
+922 silly gunzTarPerm modified mode [ 'lib/public/directory.html', 420, 438 ]
+923 silly gunzTarPerm extractEntry lib/public/error.html
+924 silly gunzTarPerm modified mode [ 'lib/public/error.html', 420, 438 ]
+925 silly gunzTarPerm extractEntry lib/public/favicon.ico
+926 silly gunzTarPerm modified mode [ 'lib/public/favicon.ico', 420, 438 ]
+927 silly gunzTarPerm extractEntry lib/public/icons/page_white_edit.png
+928 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_edit.png', 420, 438 ]
+929 silly gunzTarPerm extractEntry lib/public/icons/folder.png
+930 silly gunzTarPerm modified mode [ 'lib/public/icons/folder.png', 420, 438 ]
+931 silly gunzTarPerm extractEntry lib/public/icons/page_add.png
+932 silly gunzTarPerm modified mode [ 'lib/public/icons/page_add.png', 420, 438 ]
+933 silly gunzTarPerm extractEntry lib/public/icons/page_attach.png
+934 silly gunzTarPerm modified mode [ 'lib/public/icons/page_attach.png', 420, 438 ]
+935 silly gunzTarPerm extractEntry lib/public/icons/page_code.png
+936 silly gunzTarPerm modified mode [ 'lib/public/icons/page_code.png', 420, 438 ]
+937 silly gunzTarPerm extractEntry lib/public/icons/page_copy.png
+938 silly gunzTarPerm modified mode [ 'lib/public/icons/page_copy.png', 420, 438 ]
+939 silly gunzTarPerm extractEntry lib/public/icons/page_delete.png
+940 silly gunzTarPerm modified mode [ 'lib/public/icons/page_delete.png', 420, 438 ]
+941 silly gunzTarPerm extractEntry lib/public/icons/page_edit.png
+942 silly gunzTarPerm modified mode [ 'lib/public/icons/page_edit.png', 420, 438 ]
+943 silly gunzTarPerm extractEntry lib/public/icons/page_error.png
+944 silly gunzTarPerm modified mode [ 'lib/public/icons/page_error.png', 420, 438 ]
+945 silly gunzTarPerm extractEntry lib/public/icons/page_excel.png
+946 silly gunzTarPerm modified mode [ 'lib/public/icons/page_excel.png', 420, 438 ]
+947 silly gunzTarPerm extractEntry lib/public/icons/page_find.png
+948 silly gunzTarPerm modified mode [ 'lib/public/icons/page_find.png', 420, 438 ]
+949 silly gunzTarPerm extractEntry lib/public/icons/page_gear.png
+950 silly gunzTarPerm modified mode [ 'lib/public/icons/page_gear.png', 420, 438 ]
+951 silly gunzTarPerm extractEntry lib/public/icons/page_go.png
+952 silly gunzTarPerm modified mode [ 'lib/public/icons/page_go.png', 420, 438 ]
+953 silly gunzTarPerm extractEntry lib/public/icons/page_green.png
+954 silly gunzTarPerm modified mode [ 'lib/public/icons/page_green.png', 420, 438 ]
+955 silly gunzTarPerm extractEntry lib/public/icons/page_key.png
+956 silly gunzTarPerm modified mode [ 'lib/public/icons/page_key.png', 420, 438 ]
+957 silly gunzTarPerm extractEntry lib/public/icons/page_lightning.png
+958 silly gunzTarPerm modified mode [ 'lib/public/icons/page_lightning.png', 420, 438 ]
+959 silly gunzTarPerm extractEntry lib/public/icons/page_link.png
+960 silly gunzTarPerm modified mode [ 'lib/public/icons/page_link.png', 420, 438 ]
+961 silly gunzTarPerm extractEntry lib/public/icons/page_paintbrush.png
+962 silly gunzTarPerm modified mode [ 'lib/public/icons/page_paintbrush.png', 420, 438 ]
+963 silly gunzTarPerm extractEntry lib/public/icons/page_paste.png
+964 silly gunzTarPerm modified mode [ 'lib/public/icons/page_paste.png', 420, 438 ]
+965 silly gunzTarPerm extractEntry lib/public/icons/page_red.png
+966 silly gunzTarPerm modified mode [ 'lib/public/icons/page_red.png', 420, 438 ]
+967 silly gunzTarPerm extractEntry lib/public/icons/page_refresh.png
+968 silly gunzTarPerm modified mode [ 'lib/public/icons/page_refresh.png', 420, 438 ]
+969 silly gunzTarPerm extractEntry lib/public/icons/page_save.png
+970 silly gunzTarPerm modified mode [ 'lib/public/icons/page_save.png', 420, 438 ]
+971 silly gunzTarPerm extractEntry lib/public/icons/page_white.png
+972 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white.png', 420, 438 ]
+973 silly gunzTarPerm extractEntry lib/public/icons/page_white_acrobat.png
+974 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_acrobat.png', 420, 438 ]
+975 silly gunzTarPerm extractEntry lib/public/icons/page_white_actionscript.png
+976 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_actionscript.png', 420, 438 ]
+977 silly gunzTarPerm extractEntry lib/public/icons/page_white_add.png
+978 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_add.png', 420, 438 ]
+979 silly gunzTarPerm extractEntry lib/public/icons/page_white_c.png
+980 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_c.png', 420, 438 ]
+981 silly gunzTarPerm extractEntry lib/public/icons/page_white_camera.png
+982 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_camera.png', 420, 438 ]
+983 silly gunzTarPerm extractEntry lib/public/icons/page_white_cd.png
+984 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_cd.png', 420, 438 ]
+985 silly gunzTarPerm extractEntry lib/public/icons/page_white_code.png
+986 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_code.png', 420, 438 ]
+987 silly gunzTarPerm extractEntry lib/public/icons/page_white_code_red.png
+988 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_code_red.png', 420, 438 ]
+989 silly gunzTarPerm extractEntry lib/public/icons/page_white_coldfusion.png
+990 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_coldfusion.png', 420, 438 ]
+991 silly gunzTarPerm extractEntry lib/public/icons/page_white_compressed.png
+992 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_compressed.png', 420, 438 ]
+993 silly gunzTarPerm extractEntry lib/public/icons/page_white_copy.png
+994 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_copy.png', 420, 438 ]
+995 silly gunzTarPerm extractEntry lib/public/icons/page_white_cplusplus.png
+996 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_cplusplus.png', 420, 438 ]
+997 silly gunzTarPerm extractEntry lib/public/icons/page_white_csharp.png
+998 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_csharp.png', 420, 438 ]
+999 silly gunzTarPerm extractEntry lib/public/icons/page_white_cup.png
+1000 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_cup.png', 420, 438 ]
+1001 verbose request uri https://registry.npmjs.org/mime
+1002 verbose request no auth needed
+1003 info attempt registry request try #1 at 20:21:09
+1004 verbose etag "3ZRQIU5H2D52GRYT3000WPDFS"
+1005 http request GET https://registry.npmjs.org/mime
+1006 silly gunzTarPerm extractEntry lib/public/icons/page_white_database.png
+1007 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_database.png', 420, 438 ]
+1008 silly gunzTarPerm extractEntry lib/public/icons/page_white_delete.png
+1009 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_delete.png', 420, 438 ]
+1010 silly gunzTarPerm extractEntry lib/public/icons/page_white_dvd.png
+1011 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_dvd.png', 420, 438 ]
+1012 silly gunzTarPerm extractEntry lib/public/icons/page.png
+1013 silly gunzTarPerm modified mode [ 'lib/public/icons/page.png', 420, 438 ]
+1014 silly gunzTarPerm extractEntry lib/public/icons/page_white_error.png
+1015 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_error.png', 420, 438 ]
+1016 silly gunzTarPerm extractEntry lib/public/icons/page_white_excel.png
+1017 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_excel.png', 420, 438 ]
+1018 silly gunzTarPerm extractEntry lib/public/icons/page_white_find.png
+1019 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_find.png', 420, 438 ]
+1020 silly gunzTarPerm extractEntry lib/public/icons/page_white_flash.png
+1021 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_flash.png', 420, 438 ]
+1022 silly gunzTarPerm extractEntry lib/public/icons/page_white_freehand.png
+1023 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_freehand.png', 420, 438 ]
+1024 silly gunzTarPerm extractEntry lib/public/icons/page_white_gear.png
+1025 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_gear.png', 420, 438 ]
+1026 silly gunzTarPerm extractEntry lib/public/icons/page_white_get.png
+1027 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_get.png', 420, 438 ]
+1028 silly gunzTarPerm extractEntry lib/public/icons/page_white_go.png
+1029 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_go.png', 420, 438 ]
+1030 silly gunzTarPerm extractEntry lib/public/icons/page_white_h.png
+1031 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_h.png', 420, 438 ]
+1032 silly gunzTarPerm extractEntry lib/public/icons/page_white_horizontal.png
+1033 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_horizontal.png', 420, 438 ]
+1034 silly gunzTarPerm extractEntry lib/public/icons/page_white_key.png
+1035 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_key.png', 420, 438 ]
+1036 silly gunzTarPerm extractEntry lib/public/icons/page_white_lightning.png
+1037 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_lightning.png', 420, 438 ]
+1038 silly gunzTarPerm extractEntry lib/public/icons/page_white_link.png
+1039 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_link.png', 420, 438 ]
+1040 silly gunzTarPerm extractEntry lib/public/icons/page_white_magnify.png
+1041 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_magnify.png', 420, 438 ]
+1042 silly gunzTarPerm extractEntry lib/public/icons/page_white_medal.png
+1043 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_medal.png', 420, 438 ]
+1044 silly gunzTarPerm extractEntry lib/public/icons/page_white_office.png
+1045 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_office.png', 420, 438 ]
+1046 silly gunzTarPerm extractEntry lib/public/icons/page_white_paint.png
+1047 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_paint.png', 420, 438 ]
+1048 silly gunzTarPerm extractEntry lib/public/icons/page_white_paintbrush.png
+1049 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_paintbrush.png', 420, 438 ]
+1050 silly gunzTarPerm extractEntry lib/public/icons/page_white_paste.png
+1051 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_paste.png', 420, 438 ]
+1052 silly gunzTarPerm extractEntry lib/public/icons/page_white_php.png
+1053 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_php.png', 420, 438 ]
+1054 silly gunzTarPerm extractEntry lib/public/icons/page_white_picture.png
+1055 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_picture.png', 420, 438 ]
+1056 silly gunzTarPerm extractEntry lib/public/icons/page_white_powerpoint.png
+1057 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_powerpoint.png', 420, 438 ]
+1058 silly gunzTarPerm extractEntry lib/public/icons/page_white_put.png
+1059 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_put.png', 420, 438 ]
+1060 silly gunzTarPerm extractEntry lib/public/icons/page_white_ruby.png
+1061 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_ruby.png', 420, 438 ]
+1062 silly gunzTarPerm extractEntry lib/public/icons/page_white_stack.png
+1063 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_stack.png', 420, 438 ]
+1064 silly gunzTarPerm extractEntry lib/public/icons/page_white_star.png
+1065 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_star.png', 420, 438 ]
+1066 silly gunzTarPerm extractEntry lib/public/icons/page_white_swoosh.png
+1067 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_swoosh.png', 420, 438 ]
+1068 silly gunzTarPerm extractEntry lib/public/icons/page_white_text.png
+1069 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_text.png', 420, 438 ]
+1070 silly gunzTarPerm extractEntry lib/public/icons/page_white_text_width.png
+1071 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_text_width.png', 420, 438 ]
+1072 silly gunzTarPerm extractEntry lib/public/icons/page_white_tux.png
+1073 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_tux.png', 420, 438 ]
+1074 silly gunzTarPerm extractEntry lib/public/icons/page_white_vector.png
+1075 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_vector.png', 420, 438 ]
+1076 silly gunzTarPerm extractEntry lib/public/icons/page_white_visualstudio.png
+1077 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_visualstudio.png', 420, 438 ]
+1078 silly gunzTarPerm extractEntry lib/public/icons/page_white_width.png
+1079 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_width.png', 420, 438 ]
+1080 silly gunzTarPerm extractEntry lib/public/icons/page_white_word.png
+1081 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_word.png', 420, 438 ]
+1082 silly gunzTarPerm extractEntry lib/public/icons/page_white_world.png
+1083 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_world.png', 420, 438 ]
+1084 silly gunzTarPerm extractEntry lib/public/icons/page_white_wrench.png
+1085 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_wrench.png', 420, 438 ]
+1086 silly gunzTarPerm extractEntry lib/public/icons/page_white_zip.png
+1087 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_zip.png', 420, 438 ]
+1088 silly gunzTarPerm extractEntry lib/public/icons/page_word.png
+1089 silly gunzTarPerm modified mode [ 'lib/public/icons/page_word.png', 420, 438 ]
+1090 silly gunzTarPerm extractEntry lib/public/icons/page_world.png
+1091 silly gunzTarPerm modified mode [ 'lib/public/icons/page_world.png', 420, 438 ]
+1092 silly gunzTarPerm extractEntry lib/public/style.css
+1093 silly gunzTarPerm modified mode [ 'lib/public/style.css', 420, 438 ]
+1094 info preinstall mkdirp@0.3.5
+1095 silly install resolved []
+1096 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\mkdirp
+1097 info build c:\socket.io\examples\chat\node_modules\express\node_modules\mkdirp
+1098 verbose linkStuff [ false,
+1098 verbose linkStuff   false,
+1098 verbose linkStuff   false,
+1098 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules' ]
+1099 info linkStuff mkdirp@0.3.5
+1100 verbose linkBins mkdirp@0.3.5
+1101 verbose linkMans mkdirp@0.3.5
+1102 verbose rebuildBundles mkdirp@0.3.5
+1103 info install mkdirp@0.3.5
+1104 info postinstall mkdirp@0.3.5
+1105 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\mkdirp-72853f7aabad36a7.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\mkdirp
+1106 info preinstall connect@2.12.0
+1107 silly prepareForInstallMany adding batch@0.5.0 from connect dependencies
+1108 silly prepareForInstallMany adding qs@0.6.6 from connect dependencies
+1109 silly prepareForInstallMany adding bytes@0.2.1 from connect dependencies
+1110 silly prepareForInstallMany adding pause@0.0.1 from connect dependencies
+1111 silly prepareForInstallMany adding uid2@0.0.3 from connect dependencies
+1112 silly prepareForInstallMany adding raw-body@1.1.2 from connect dependencies
+1113 silly prepareForInstallMany adding negotiator@0.3.0 from connect dependencies
+1114 silly prepareForInstallMany adding multiparty@2.2.0 from connect dependencies
+1115 silly cache add args [ 'bytes@0.2.1', null ]
+1116 verbose cache add spec bytes@0.2.1
+1117 silly cache add parsed spec { raw: 'bytes@0.2.1',
+1117 silly cache add   scope: null,
+1117 silly cache add   name: 'bytes',
+1117 silly cache add   rawSpec: '0.2.1',
+1117 silly cache add   spec: '0.2.1',
+1117 silly cache add   type: 'version' }
+1118 verbose addNamed bytes@0.2.1
+1119 silly addNamed semver.valid 0.2.1
+1120 silly addNamed semver.validRange 0.2.1
+1121 silly mapToRegistry name bytes
+1122 silly mapToRegistry using default registry
+1123 silly mapToRegistry registry https://registry.npmjs.org/
+1124 silly mapToRegistry uri https://registry.npmjs.org/bytes
+1125 verbose addNameVersion registry:https://registry.npmjs.org/bytes not in flight; fetching
+1126 verbose request uri https://registry.npmjs.org/bytes
+1127 verbose request no auth needed
+1128 info attempt registry request try #1 at 20:21:09
+1129 http request GET https://registry.npmjs.org/bytes
+1130 silly cache add args [ 'pause@0.0.1', null ]
+1131 verbose cache add spec pause@0.0.1
+1132 silly cache add parsed spec { raw: 'pause@0.0.1',
+1132 silly cache add   scope: null,
+1132 silly cache add   name: 'pause',
+1132 silly cache add   rawSpec: '0.0.1',
+1132 silly cache add   spec: '0.0.1',
+1132 silly cache add   type: 'version' }
+1133 verbose addNamed pause@0.0.1
+1134 silly addNamed semver.valid 0.0.1
+1135 silly addNamed semver.validRange 0.0.1
+1136 silly mapToRegistry name pause
+1137 silly mapToRegistry using default registry
+1138 silly mapToRegistry registry https://registry.npmjs.org/
+1139 silly mapToRegistry uri https://registry.npmjs.org/pause
+1140 verbose addNameVersion registry:https://registry.npmjs.org/pause not in flight; fetching
+1141 silly cache add args [ 'uid2@0.0.3', null ]
+1142 verbose cache add spec uid2@0.0.3
+1143 silly cache add parsed spec { raw: 'uid2@0.0.3',
+1143 silly cache add   scope: null,
+1143 silly cache add   name: 'uid2',
+1143 silly cache add   rawSpec: '0.0.3',
+1143 silly cache add   spec: '0.0.3',
+1143 silly cache add   type: 'version' }
+1144 verbose addNamed uid2@0.0.3
+1145 silly addNamed semver.valid 0.0.3
+1146 silly addNamed semver.validRange 0.0.3
+1147 silly mapToRegistry name uid2
+1148 silly mapToRegistry using default registry
+1149 silly mapToRegistry registry https://registry.npmjs.org/
+1150 silly mapToRegistry uri https://registry.npmjs.org/uid2
+1151 verbose addNameVersion registry:https://registry.npmjs.org/uid2 not in flight; fetching
+1152 silly cache add args [ 'raw-body@1.1.2', null ]
+1153 verbose cache add spec raw-body@1.1.2
+1154 silly cache add parsed spec { raw: 'raw-body@1.1.2',
+1154 silly cache add   scope: null,
+1154 silly cache add   name: 'raw-body',
+1154 silly cache add   rawSpec: '1.1.2',
+1154 silly cache add   spec: '1.1.2',
+1154 silly cache add   type: 'version' }
+1155 verbose addNamed raw-body@1.1.2
+1156 silly addNamed semver.valid 1.1.2
+1157 silly addNamed semver.validRange 1.1.2
+1158 silly mapToRegistry name raw-body
+1159 silly mapToRegistry using default registry
+1160 silly mapToRegistry registry https://registry.npmjs.org/
+1161 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+1162 verbose addNameVersion registry:https://registry.npmjs.org/raw-body not in flight; fetching
+1163 verbose request uri https://registry.npmjs.org/pause
+1164 verbose request no auth needed
+1165 info attempt registry request try #1 at 20:21:09
+1166 http request GET https://registry.npmjs.org/pause
+1167 silly cache add args [ 'negotiator@0.3.0', null ]
+1168 verbose cache add spec negotiator@0.3.0
+1169 silly cache add parsed spec { raw: 'negotiator@0.3.0',
+1169 silly cache add   scope: null,
+1169 silly cache add   name: 'negotiator',
+1169 silly cache add   rawSpec: '0.3.0',
+1169 silly cache add   spec: '0.3.0',
+1169 silly cache add   type: 'version' }
+1170 verbose addNamed negotiator@0.3.0
+1171 silly addNamed semver.valid 0.3.0
+1172 silly addNamed semver.validRange 0.3.0
+1173 silly mapToRegistry name negotiator
+1174 silly mapToRegistry using default registry
+1175 silly mapToRegistry registry https://registry.npmjs.org/
+1176 silly mapToRegistry uri https://registry.npmjs.org/negotiator
+1177 verbose addNameVersion registry:https://registry.npmjs.org/negotiator not in flight; fetching
+1178 silly cache add args [ 'multiparty@2.2.0', null ]
+1179 verbose cache add spec multiparty@2.2.0
+1180 silly cache add parsed spec { raw: 'multiparty@2.2.0',
+1180 silly cache add   scope: null,
+1180 silly cache add   name: 'multiparty',
+1180 silly cache add   rawSpec: '2.2.0',
+1180 silly cache add   spec: '2.2.0',
+1180 silly cache add   type: 'version' }
+1181 verbose addNamed multiparty@2.2.0
+1182 silly addNamed semver.valid 2.2.0
+1183 silly addNamed semver.validRange 2.2.0
+1184 silly mapToRegistry name multiparty
+1185 silly mapToRegistry using default registry
+1186 silly mapToRegistry registry https://registry.npmjs.org/
+1187 silly mapToRegistry uri https://registry.npmjs.org/multiparty
+1188 verbose addNameVersion registry:https://registry.npmjs.org/multiparty not in flight; fetching
+1189 silly cache add args [ 'batch@0.5.0', null ]
+1190 verbose cache add spec batch@0.5.0
+1191 silly cache add parsed spec { raw: 'batch@0.5.0',
+1191 silly cache add   scope: null,
+1191 silly cache add   name: 'batch',
+1191 silly cache add   rawSpec: '0.5.0',
+1191 silly cache add   spec: '0.5.0',
+1191 silly cache add   type: 'version' }
+1192 verbose addNamed batch@0.5.0
+1193 silly addNamed semver.valid 0.5.0
+1194 silly addNamed semver.validRange 0.5.0
+1195 silly mapToRegistry name batch
+1196 silly mapToRegistry using default registry
+1197 silly mapToRegistry registry https://registry.npmjs.org/
+1198 silly mapToRegistry uri https://registry.npmjs.org/batch
+1199 verbose addNameVersion registry:https://registry.npmjs.org/batch not in flight; fetching
+1200 silly cache add args [ 'qs@0.6.6', null ]
+1201 verbose cache add spec qs@0.6.6
+1202 silly cache add parsed spec { raw: 'qs@0.6.6',
+1202 silly cache add   scope: null,
+1202 silly cache add   name: 'qs',
+1202 silly cache add   rawSpec: '0.6.6',
+1202 silly cache add   spec: '0.6.6',
+1202 silly cache add   type: 'version' }
+1203 verbose addNamed qs@0.6.6
+1204 silly addNamed semver.valid 0.6.6
+1205 silly addNamed semver.validRange 0.6.6
+1206 silly mapToRegistry name qs
+1207 silly mapToRegistry using default registry
+1208 silly mapToRegistry registry https://registry.npmjs.org/
+1209 silly mapToRegistry uri https://registry.npmjs.org/qs
+1210 verbose addNameVersion registry:https://registry.npmjs.org/qs not in flight; fetching
+1211 verbose request uri https://registry.npmjs.org/uid2
+1212 verbose request no auth needed
+1213 info attempt registry request try #1 at 20:21:09
+1214 http request GET https://registry.npmjs.org/uid2
+1215 verbose request uri https://registry.npmjs.org/raw-body
+1216 verbose request no auth needed
+1217 info attempt registry request try #1 at 20:21:09
+1218 http request GET https://registry.npmjs.org/raw-body
+1219 verbose request uri https://registry.npmjs.org/multiparty
+1220 verbose request no auth needed
+1221 info attempt registry request try #1 at 20:21:09
+1222 http request GET https://registry.npmjs.org/multiparty
+1223 verbose request uri https://registry.npmjs.org/batch
+1224 verbose request no auth needed
+1225 info attempt registry request try #1 at 20:21:09
+1226 http request GET https://registry.npmjs.org/batch
+1227 verbose request uri https://registry.npmjs.org/qs
+1228 verbose request no auth needed
+1229 info attempt registry request try #1 at 20:21:09
+1230 verbose etag "6RZ4NBCBL9GAMUKY2GC4UZ0K5"
+1231 http request GET https://registry.npmjs.org/qs
+1232 verbose request uri https://registry.npmjs.org/negotiator
+1233 verbose request no auth needed
+1234 info attempt registry request try #1 at 20:21:09
+1235 verbose etag "9HZPKRMHEIT20X2PVZ8NFVPD4"
+1236 http request GET https://registry.npmjs.org/negotiator
+1237 http 304 https://registry.npmjs.org/mime
+1238 silly get cb [ 304,
+1238 silly get   { date: 'Sun, 17 May 2015 23:21:09 GMT',
+1238 silly get     via: '1.1 varnish',
+1238 silly get     'cache-control': 'max-age=60',
+1238 silly get     etag: '"3ZRQIU5H2D52GRYT3000WPDFS"',
+1238 silly get     age: '43',
+1238 silly get     connection: 'keep-alive',
+1238 silly get     'x-served-by': 'cache-jfk1028-JFK',
+1238 silly get     'x-cache': 'HIT',
+1238 silly get     'x-cache-hits': '2',
+1238 silly get     'x-timer': 'S1431904869.446251,VS0,VE0',
+1238 silly get     vary: 'Accept' } ]
+1239 verbose etag https://registry.npmjs.org/mime from cache
+1240 verbose get saving mime to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\mime\.cache.json
+1241 silly addNameRange number 2 { name: 'mime', range: '>=1.2.9 <1.3.0', hasData: true }
+1242 silly addNameRange versions [ 'mime',
+1242 silly addNameRange   [ '1.0.0',
+1242 silly addNameRange     '1.1.0',
+1242 silly addNameRange     '1.2.1',
+1242 silly addNameRange     '1.2.2',
+1242 silly addNameRange     '1.2.3',
+1242 silly addNameRange     '1.2.4',
+1242 silly addNameRange     '1.2.5',
+1242 silly addNameRange     '1.2.6',
+1242 silly addNameRange     '1.2.7',
+1242 silly addNameRange     '1.2.8',
+1242 silly addNameRange     '1.2.9',
+1242 silly addNameRange     '1.2.10',
+1242 silly addNameRange     '1.2.11',
+1242 silly addNameRange     '1.3.0',
+1242 silly addNameRange     '1.3.2',
+1242 silly addNameRange     '1.3.3',
+1242 silly addNameRange     '1.3.4' ] ]
+1243 verbose addNamed mime@1.2.11
+1244 silly addNamed semver.valid 1.2.11
+1245 silly addNamed semver.validRange 1.2.11
+1246 http 200 https://registry.npmjs.org/bytes
+1247 silly get cb [ 200,
+1247 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1247 silly get     etag: '"2SXVXOK6OLSMCAOQB3FX7P63P"',
+1247 silly get     'content-type': 'application/json',
+1247 silly get     'cache-control': 'max-age=60',
+1247 silly get     'content-length': '11050',
+1247 silly get     'accept-ranges': 'bytes',
+1247 silly get     date: 'Sun, 17 May 2015 23:21:09 GMT',
+1247 silly get     via: '1.1 varnish',
+1247 silly get     age: '27',
+1247 silly get     connection: 'keep-alive',
+1247 silly get     'x-served-by': 'cache-jfk1034-JFK',
+1247 silly get     'x-cache': 'HIT',
+1247 silly get     'x-cache-hits': '1',
+1247 silly get     'x-timer': 'S1431904869.746830,VS0,VE0',
+1247 silly get     vary: 'Accept' } ]
+1248 verbose get saving bytes to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\bytes\.cache.json
+1249 silly cache afterAdd mime@1.2.11
+1250 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\mime\1.2.11\package\package.json not in flight; writing
+1251 http 200 https://registry.npmjs.org/pause
+1252 silly get cb [ 200,
+1252 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1252 silly get     etag: '"1TP4074G82SP943NTFYV7C8V0"',
+1252 silly get     'content-type': 'application/json',
+1252 silly get     'cache-control': 'max-age=60',
+1252 silly get     'content-length': '2108',
+1252 silly get     'accept-ranges': 'bytes',
+1252 silly get     date: 'Sun, 17 May 2015 23:21:09 GMT',
+1252 silly get     via: '1.1 varnish',
+1252 silly get     age: '56',
+1252 silly get     connection: 'keep-alive',
+1252 silly get     'x-served-by': 'cache-jfk1032-JFK',
+1252 silly get     'x-cache': 'HIT',
+1252 silly get     'x-cache-hits': '2',
+1252 silly get     'x-timer': 'S1431904869.758752,VS0,VE0',
+1252 silly get     vary: 'Accept' } ]
+1253 verbose get saving pause to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\pause\.cache.json
+1254 silly mapToRegistry name bytes
+1255 silly mapToRegistry using default registry
+1256 silly mapToRegistry registry https://registry.npmjs.org/
+1257 silly mapToRegistry uri https://registry.npmjs.org/bytes
+1258 verbose addRemoteTarball https://registry.npmjs.org/bytes/-/bytes-0.2.1.tgz not in flight; adding
+1259 verbose addRemoteTarball [ 'https://registry.npmjs.org/bytes/-/bytes-0.2.1.tgz',
+1259 verbose addRemoteTarball   '555b08abcb063f8975905302523e4cd4ffdfdf31' ]
+1260 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\mime\1.2.11\package\package.json written
+1261 silly install resolved [ { author:
+1261 silly install resolved      { name: 'Robert Kieffer',
+1261 silly install resolved        email: 'robert@broofa.com',
+1261 silly install resolved        url: 'http://github.com/broofa' },
+1261 silly install resolved     contributors: [ [Object] ],
+1261 silly install resolved     dependencies: {},
+1261 silly install resolved     description: 'A comprehensive library for mime-type mapping',
+1261 silly install resolved     devDependencies: {},
+1261 silly install resolved     keywords: [ 'util', 'mime' ],
+1261 silly install resolved     main: 'mime.js',
+1261 silly install resolved     name: 'mime',
+1261 silly install resolved     repository: { url: 'https://github.com/broofa/node-mime', type: 'git' },
+1261 silly install resolved     version: '1.2.11',
+1261 silly install resolved     bugs: { url: 'https://github.com/broofa/node-mime/issues' },
+1261 silly install resolved     _id: 'mime@1.2.11',
+1261 silly install resolved     dist:
+1261 silly install resolved      { shasum: '58203eed86e3a5ef17aed2b7d9ebd47f0a60dd10',
+1261 silly install resolved        tarball: 'http://registry.npmjs.org/mime/-/mime-1.2.11.tgz' },
+1261 silly install resolved     _from: 'mime@>=1.2.9 <1.3.0',
+1261 silly install resolved     _npmVersion: '1.3.6',
+1261 silly install resolved     _npmUser: { name: 'broofa', email: 'robert@broofa.com' },
+1261 silly install resolved     maintainers: [ [Object], [Object] ],
+1261 silly install resolved     directories: {},
+1261 silly install resolved     _shasum: '58203eed86e3a5ef17aed2b7d9ebd47f0a60dd10',
+1261 silly install resolved     _resolved: 'https://registry.npmjs.org/mime/-/mime-1.2.11.tgz',
+1261 silly install resolved     readme: 'ERROR: No README data found!',
+1261 silly install resolved     homepage: 'https://github.com/broofa/node-mime' } ]
+1262 info install mime@1.2.11 into c:\socket.io\examples\chat\node_modules\express\node_modules\send
+1263 info installOne mime@1.2.11
+1264 verbose installOne of mime to c:\socket.io\examples\chat\node_modules\express\node_modules\send not in flight; installing
+1265 silly mapToRegistry name pause
+1266 silly mapToRegistry using default registry
+1267 silly mapToRegistry registry https://registry.npmjs.org/
+1268 silly mapToRegistry uri https://registry.npmjs.org/pause
+1269 verbose addRemoteTarball https://registry.npmjs.org/pause/-/pause-0.0.1.tgz not in flight; adding
+1270 verbose addRemoteTarball [ 'https://registry.npmjs.org/pause/-/pause-0.0.1.tgz',
+1270 verbose addRemoteTarball   '1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d' ]
+1271 info retry fetch attempt 1 at 20:21:10
+1272 info attempt registry request try #1 at 20:21:10
+1273 http fetch GET https://registry.npmjs.org/bytes/-/bytes-0.2.1.tgz
+1274 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\mime-7728ac0d9d032bf6.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\send\node_modules\mime
+1275 silly install write writing mime 1.2.11 to c:\socket.io\examples\chat\node_modules\express\node_modules\send\node_modules\mime
+1276 silly cache addNamed cb mime@1.2.11
+1277 verbose unbuild node_modules\express\node_modules\send\node_modules\mime
+1278 info retry fetch attempt 1 at 20:21:10
+1279 info attempt registry request try #1 at 20:21:10
+1280 http fetch GET https://registry.npmjs.org/pause/-/pause-0.0.1.tgz
+1281 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\send\node_modules\mime is being purged from base c:\socket.io\examples\chat
+1282 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\send\node_modules\mime
+1283 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\mime\1.2.11\package.tgz
+1284 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\send\node_modules\mime
+1285 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\send\node_modules\mime is being purged
+1286 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\send\node_modules\mime
+1287 silly gunzTarPerm modes [ '777', '666' ]
+1288 silly gunzTarPerm extractEntry package.json
+1289 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1290 silly gunzTarPerm extractEntry README.md
+1291 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1292 silly gunzTarPerm extractEntry LICENSE
+1293 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1294 http 200 https://registry.npmjs.org/uid2
+1295 silly get cb [ 200,
+1295 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1295 silly get     etag: '"3L3FQXO9G0AZ3O1XKMW7JOMNS"',
+1295 silly get     'content-type': 'application/json',
+1295 silly get     'cache-control': 'max-age=60',
+1295 silly get     'content-length': '1808',
+1295 silly get     'accept-ranges': 'bytes',
+1295 silly get     date: 'Sun, 17 May 2015 23:21:09 GMT',
+1295 silly get     via: '1.1 varnish',
+1295 silly get     age: '9',
+1295 silly get     connection: 'keep-alive',
+1295 silly get     'x-served-by': 'cache-jfk1035-JFK',
+1295 silly get     'x-cache': 'HIT',
+1295 silly get     'x-cache-hits': '1',
+1295 silly get     'x-timer': 'S1431904869.795949,VS0,VE0',
+1295 silly get     vary: 'Accept' } ]
+1296 verbose get saving uid2 to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\uid2\.cache.json
+1297 silly gunzTarPerm extractEntry mime.js
+1298 silly gunzTarPerm modified mode [ 'mime.js', 420, 438 ]
+1299 silly gunzTarPerm extractEntry test.js
+1300 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+1301 silly gunzTarPerm extractEntry types/mime.types
+1302 silly gunzTarPerm modified mode [ 'types/mime.types', 420, 438 ]
+1303 silly gunzTarPerm extractEntry types/node.types
+1304 silly gunzTarPerm modified mode [ 'types/node.types', 420, 438 ]
+1305 silly mapToRegistry name uid2
+1306 silly mapToRegistry using default registry
+1307 silly mapToRegistry registry https://registry.npmjs.org/
+1308 silly mapToRegistry uri https://registry.npmjs.org/uid2
+1309 verbose addRemoteTarball https://registry.npmjs.org/uid2/-/uid2-0.0.3.tgz not in flight; adding
+1310 verbose addRemoteTarball [ 'https://registry.npmjs.org/uid2/-/uid2-0.0.3.tgz',
+1310 verbose addRemoteTarball   '483126e11774df2f71b8b639dcd799c376162b82' ]
+1311 info retry fetch attempt 1 at 20:21:10
+1312 info attempt registry request try #1 at 20:21:10
+1313 http fetch GET https://registry.npmjs.org/uid2/-/uid2-0.0.3.tgz
+1314 http 200 https://registry.npmjs.org/batch
+1315 silly get cb [ 200,
+1315 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1315 silly get     etag: '"149ZDKCMHGNRW20C4ALPCC8IB"',
+1315 silly get     'content-type': 'application/json',
+1315 silly get     'cache-control': 'max-age=60',
+1315 silly get     'content-length': '11257',
+1315 silly get     'accept-ranges': 'bytes',
+1315 silly get     date: 'Sun, 17 May 2015 23:21:09 GMT',
+1315 silly get     via: '1.1 varnish',
+1315 silly get     age: '8',
+1315 silly get     connection: 'keep-alive',
+1315 silly get     'x-served-by': 'cache-jfk1026-JFK',
+1315 silly get     'x-cache': 'HIT',
+1315 silly get     'x-cache-hits': '1',
+1315 silly get     'x-timer': 'S1431904869.803827,VS0,VE0',
+1315 silly get     vary: 'Accept' } ]
+1316 verbose get saving batch to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\batch\.cache.json
+1317 info preinstall mime@1.2.11
+1318 silly install resolved []
+1319 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\send\node_modules\mime
+1320 info build c:\socket.io\examples\chat\node_modules\express\node_modules\send\node_modules\mime
+1321 verbose linkStuff [ false,
+1321 verbose linkStuff   false,
+1321 verbose linkStuff   false,
+1321 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules\\send\\node_modules' ]
+1322 info linkStuff mime@1.2.11
+1323 verbose linkBins mime@1.2.11
+1324 verbose linkMans mime@1.2.11
+1325 verbose rebuildBundles mime@1.2.11
+1326 info install mime@1.2.11
+1327 silly mapToRegistry name batch
+1328 silly mapToRegistry using default registry
+1329 silly mapToRegistry registry https://registry.npmjs.org/
+1330 silly mapToRegistry uri https://registry.npmjs.org/batch
+1331 verbose addRemoteTarball https://registry.npmjs.org/batch/-/batch-0.5.0.tgz not in flight; adding
+1332 verbose addRemoteTarball [ 'https://registry.npmjs.org/batch/-/batch-0.5.0.tgz',
+1332 verbose addRemoteTarball   'fd2e05a7a5d696b4db9314013e285d8ff3557ec3' ]
+1333 info postinstall mime@1.2.11
+1334 info retry fetch attempt 1 at 20:21:10
+1335 info attempt registry request try #1 at 20:21:10
+1336 http fetch GET https://registry.npmjs.org/batch/-/batch-0.5.0.tgz
+1337 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\mime-7728ac0d9d032bf6.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\send\node_modules\mime
+1338 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\send
+1339 info build c:\socket.io\examples\chat\node_modules\express\node_modules\send
+1340 verbose linkStuff [ false,
+1340 verbose linkStuff   false,
+1340 verbose linkStuff   false,
+1340 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules' ]
+1341 info linkStuff send@0.1.4
+1342 verbose linkBins send@0.1.4
+1343 verbose linkMans send@0.1.4
+1344 verbose rebuildBundles send@0.1.4
+1345 verbose rebuildBundles [ 'mime' ]
+1346 info install send@0.1.4
+1347 info postinstall send@0.1.4
+1348 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\send-c5ce59ee2cde5d94.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\send
+1349 http 304 https://registry.npmjs.org/qs
+1350 silly get cb [ 304,
+1350 silly get   { date: 'Sun, 17 May 2015 23:21:09 GMT',
+1350 silly get     via: '1.1 varnish',
+1350 silly get     'cache-control': 'max-age=60',
+1350 silly get     etag: '"6RZ4NBCBL9GAMUKY2GC4UZ0K5"',
+1350 silly get     age: '4',
+1350 silly get     connection: 'keep-alive',
+1350 silly get     'x-served-by': 'cache-jfk1020-JFK',
+1350 silly get     'x-cache': 'HIT',
+1350 silly get     'x-cache-hits': '1',
+1350 silly get     'x-timer': 'S1431904869.875905,VS0,VE0',
+1350 silly get     vary: 'Accept' } ]
+1351 verbose etag https://registry.npmjs.org/qs from cache
+1352 verbose get saving qs to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\qs\.cache.json
+1353 http 304 https://registry.npmjs.org/negotiator
+1354 silly get cb [ 304,
+1354 silly get   { date: 'Sun, 17 May 2015 23:21:09 GMT',
+1354 silly get     via: '1.1 varnish',
+1354 silly get     'cache-control': 'max-age=60',
+1354 silly get     etag: '"9HZPKRMHEIT20X2PVZ8NFVPD4"',
+1354 silly get     age: '50',
+1354 silly get     connection: 'keep-alive',
+1354 silly get     'x-served-by': 'cache-jfk1025-JFK',
+1354 silly get     'x-cache': 'HIT',
+1354 silly get     'x-cache-hits': '1',
+1354 silly get     'x-timer': 'S1431904869.877027,VS0,VE0',
+1354 silly get     vary: 'Accept' } ]
+1355 verbose etag https://registry.npmjs.org/negotiator from cache
+1356 verbose get saving negotiator to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\negotiator\.cache.json
+1357 silly mapToRegistry name qs
+1358 silly mapToRegistry using default registry
+1359 silly mapToRegistry registry https://registry.npmjs.org/
+1360 silly mapToRegistry uri https://registry.npmjs.org/qs
+1361 verbose addRemoteTarball https://registry.npmjs.org/qs/-/qs-0.6.6.tgz not in flight; adding
+1362 verbose addRemoteTarball [ 'https://registry.npmjs.org/qs/-/qs-0.6.6.tgz',
+1362 verbose addRemoteTarball   '6e015098ff51968b8a3c819001d5f2c89bc4b107' ]
+1363 silly mapToRegistry name negotiator
+1364 silly mapToRegistry using default registry
+1365 silly mapToRegistry registry https://registry.npmjs.org/
+1366 silly mapToRegistry uri https://registry.npmjs.org/negotiator
+1367 verbose addRemoteTarball https://registry.npmjs.org/negotiator/-/negotiator-0.3.0.tgz not in flight; adding
+1368 verbose addRemoteTarball [ 'https://registry.npmjs.org/negotiator/-/negotiator-0.3.0.tgz',
+1368 verbose addRemoteTarball   '706d692efeddf574d57ea9fb1ab89a4fa7ee8f60' ]
+1369 info retry fetch attempt 1 at 20:21:10
+1370 info attempt registry request try #1 at 20:21:10
+1371 http fetch GET https://registry.npmjs.org/qs/-/qs-0.6.6.tgz
+1372 info retry fetch attempt 1 at 20:21:10
+1373 info attempt registry request try #1 at 20:21:10
+1374 http fetch GET https://registry.npmjs.org/negotiator/-/negotiator-0.3.0.tgz
+1375 http 200 https://registry.npmjs.org/raw-body
+1376 silly get cb [ 200,
+1376 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1376 silly get     etag: '"2S73WNL7S4UJ70XWJPO24PIB5"',
+1376 silly get     'content-type': 'application/json',
+1376 silly get     'cache-control': 'max-age=60',
+1376 silly get     'content-length': '37796',
+1376 silly get     'accept-ranges': 'bytes',
+1376 silly get     date: 'Sun, 17 May 2015 23:21:09 GMT',
+1376 silly get     via: '1.1 varnish',
+1376 silly get     age: '9',
+1376 silly get     connection: 'keep-alive',
+1376 silly get     'x-served-by': 'cache-jfk1021-JFK',
+1376 silly get     'x-cache': 'HIT',
+1376 silly get     'x-cache-hits': '2',
+1376 silly get     'x-timer': 'S1431904869.765780,VS0,VE0',
+1376 silly get     vary: 'Accept' } ]
+1377 verbose get saving raw-body to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\raw-body\.cache.json
+1378 silly mapToRegistry name raw-body
+1379 silly mapToRegistry using default registry
+1380 silly mapToRegistry registry https://registry.npmjs.org/
+1381 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+1382 verbose addRemoteTarball https://registry.npmjs.org/raw-body/-/raw-body-1.1.2.tgz not in flight; adding
+1383 verbose addRemoteTarball [ 'https://registry.npmjs.org/raw-body/-/raw-body-1.1.2.tgz',
+1383 verbose addRemoteTarball   'c74b3004dea5defd1696171106ac740ec31d62be' ]
+1384 info retry fetch attempt 1 at 20:21:10
+1385 info attempt registry request try #1 at 20:21:10
+1386 http fetch GET https://registry.npmjs.org/raw-body/-/raw-body-1.1.2.tgz
+1387 http fetch 200 https://registry.npmjs.org/bytes/-/bytes-0.2.1.tgz
+1388 http fetch 200 https://registry.npmjs.org/pause/-/pause-0.0.1.tgz
+1389 silly fetchAndShaCheck shasum 555b08abcb063f8975905302523e4cd4ffdfdf31
+1390 silly fetchAndShaCheck shasum 1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d
+1391 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3428-5530c718\registry.npmjs.org\bytes\-\bytes-0.2.1.tgz not in flight; adding
+1392 verbose addTmpTarball already have metadata; skipping unpack for bytes@0.2.1
+1393 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3428-5530c718\registry.npmjs.org\pause\-\pause-0.0.1.tgz not in flight; adding
+1394 verbose addTmpTarball already have metadata; skipping unpack for pause@0.0.1
+1395 silly cache afterAdd bytes@0.2.1
+1396 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\bytes\0.2.1\package\package.json not in flight; writing
+1397 silly cache afterAdd pause@0.0.1
+1398 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\pause\0.0.1\package\package.json not in flight; writing
+1399 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\bytes\0.2.1\package\package.json written
+1400 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\pause\0.0.1\package\package.json written
+1401 http fetch 200 https://registry.npmjs.org/qs/-/qs-0.6.6.tgz
+1402 silly fetchAndShaCheck shasum 6e015098ff51968b8a3c819001d5f2c89bc4b107
+1403 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3428-5530c718\registry.npmjs.org\qs\-\qs-0.6.6.tgz not in flight; adding
+1404 verbose addTmpTarball already have metadata; skipping unpack for qs@0.6.6
+1405 silly cache afterAdd qs@0.6.6
+1406 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\qs\0.6.6\package\package.json not in flight; writing
+1407 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\qs\0.6.6\package\package.json written
+1408 http 200 https://registry.npmjs.org/multiparty
+1409 silly get cb [ 200,
+1409 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1409 silly get     etag: '"6A1W1M91Q5UTWVTZLUL0OIUSK"',
+1409 silly get     'content-type': 'application/json',
+1409 silly get     'cache-control': 'max-age=60',
+1409 silly get     'content-length': '46204',
+1409 silly get     'accept-ranges': 'bytes',
+1409 silly get     date: 'Sun, 17 May 2015 23:21:09 GMT',
+1409 silly get     via: '1.1 varnish',
+1409 silly get     age: '27',
+1409 silly get     connection: 'keep-alive',
+1409 silly get     'x-served-by': 'cache-jfk1024-JFK',
+1409 silly get     'x-cache': 'HIT',
+1409 silly get     'x-cache-hits': '2',
+1409 silly get     'x-timer': 'S1431904869.806190,VS0,VE0',
+1409 silly get     vary: 'Accept' } ]
+1410 verbose get saving multiparty to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\multiparty\.cache.json
+1411 silly mapToRegistry name multiparty
+1412 silly mapToRegistry using default registry
+1413 silly mapToRegistry registry https://registry.npmjs.org/
+1414 silly mapToRegistry uri https://registry.npmjs.org/multiparty
+1415 verbose addRemoteTarball https://registry.npmjs.org/multiparty/-/multiparty-2.2.0.tgz not in flight; adding
+1416 verbose addRemoteTarball [ 'https://registry.npmjs.org/multiparty/-/multiparty-2.2.0.tgz',
+1416 verbose addRemoteTarball   'a567c2af000ad22dc8f2a653d91978ae1f5316f4' ]
+1417 info retry fetch attempt 1 at 20:21:11
+1418 info attempt registry request try #1 at 20:21:11
+1419 http fetch GET https://registry.npmjs.org/multiparty/-/multiparty-2.2.0.tgz
+1420 http 200 https://registry.npmjs.org/keypress
+1421 silly get cb [ 200,
+1421 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1421 silly get     etag: '"8O9RUQUY2FX44R1B3MEBXQNJM"',
+1421 silly get     'content-type': 'application/json',
+1421 silly get     'cache-control': 'max-age=60',
+1421 silly get     'content-length': '20496',
+1421 silly get     'accept-ranges': 'bytes',
+1421 silly get     date: 'Sun, 17 May 2015 23:21:09 GMT',
+1421 silly get     via: '1.1 varnish',
+1421 silly get     age: '33',
+1421 silly get     connection: 'keep-alive',
+1421 silly get     'x-served-by': 'cache-jfk1021-JFK',
+1421 silly get     'x-cache': 'HIT',
+1421 silly get     'x-cache-hits': '2',
+1421 silly get     'x-timer': 'S1431904869.539859,VS0,VE0',
+1421 silly get     vary: 'Accept' } ]
+1422 verbose get saving keypress to C:\Users\Administrador\AppData\Roaming\npm-cache\registry.npmjs.org\keypress\.cache.json
+1423 silly addNameRange number 2 { name: 'keypress', range: '>=0.1.0 <0.2.0', hasData: true }
+1424 silly addNameRange versions [ 'keypress', [ '0.0.1', '0.0.2', '0.1.0', '0.2.0', '0.2.1' ] ]
+1425 verbose addNamed keypress@0.1.0
+1426 silly addNamed semver.valid 0.1.0
+1427 silly addNamed semver.validRange 0.1.0
+1428 silly mapToRegistry name keypress
+1429 silly mapToRegistry using default registry
+1430 silly mapToRegistry registry https://registry.npmjs.org/
+1431 silly mapToRegistry uri https://registry.npmjs.org/keypress
+1432 verbose addRemoteTarball https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz not in flight; adding
+1433 verbose addRemoteTarball [ 'https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz',
+1433 verbose addRemoteTarball   '4a3188d4291b66b4f65edb99f806aa9ae293592a' ]
+1434 info retry fetch attempt 1 at 20:21:11
+1435 info attempt registry request try #1 at 20:21:11
+1436 http fetch GET https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz
+1437 http fetch 200 https://registry.npmjs.org/uid2/-/uid2-0.0.3.tgz
+1438 silly fetchAndShaCheck shasum 483126e11774df2f71b8b639dcd799c376162b82
+1439 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3428-5530c718\registry.npmjs.org\uid2\-\uid2-0.0.3.tgz not in flight; adding
+1440 verbose addTmpTarball already have metadata; skipping unpack for uid2@0.0.3
+1441 silly cache afterAdd uid2@0.0.3
+1442 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\uid2\0.0.3\package\package.json not in flight; writing
+1443 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\uid2\0.0.3\package\package.json written
+1444 http fetch 200 https://registry.npmjs.org/batch/-/batch-0.5.0.tgz
+1445 silly fetchAndShaCheck shasum fd2e05a7a5d696b4db9314013e285d8ff3557ec3
+1446 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3428-5530c718\registry.npmjs.org\batch\-\batch-0.5.0.tgz not in flight; adding
+1447 verbose addTmpTarball already have metadata; skipping unpack for batch@0.5.0
+1448 silly cache afterAdd batch@0.5.0
+1449 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\batch\0.5.0\package\package.json not in flight; writing
+1450 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\batch\0.5.0\package\package.json written
+1451 http fetch 200 https://registry.npmjs.org/negotiator/-/negotiator-0.3.0.tgz
+1452 silly fetchAndShaCheck shasum 706d692efeddf574d57ea9fb1ab89a4fa7ee8f60
+1453 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3428-5530c718\registry.npmjs.org\negotiator\-\negotiator-0.3.0.tgz not in flight; adding
+1454 verbose addTmpTarball already have metadata; skipping unpack for negotiator@0.3.0
+1455 silly cache afterAdd negotiator@0.3.0
+1456 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\negotiator\0.3.0\package\package.json not in flight; writing
+1457 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\negotiator\0.3.0\package\package.json written
+1458 http fetch 200 https://registry.npmjs.org/raw-body/-/raw-body-1.1.2.tgz
+1459 silly fetchAndShaCheck shasum c74b3004dea5defd1696171106ac740ec31d62be
+1460 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3428-5530c718\registry.npmjs.org\raw-body\-\raw-body-1.1.2.tgz not in flight; adding
+1461 verbose addTmpTarball already have metadata; skipping unpack for raw-body@1.1.2
+1462 silly cache afterAdd raw-body@1.1.2
+1463 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\raw-body\1.1.2\package\package.json not in flight; writing
+1464 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\raw-body\1.1.2\package\package.json written
+1465 http fetch 200 https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz
+1466 silly fetchAndShaCheck shasum 4a3188d4291b66b4f65edb99f806aa9ae293592a
+1467 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3428-5530c718\registry.npmjs.org\keypress\-\keypress-0.1.0.tgz not in flight; adding
+1468 verbose addTmpTarball already have metadata; skipping unpack for keypress@0.1.0
+1469 silly cache afterAdd keypress@0.1.0
+1470 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\keypress\0.1.0\package\package.json not in flight; writing
+1471 verbose afterAdd C:\Users\Administrador\AppData\Roaming\npm-cache\keypress\0.1.0\package\package.json written
+1472 silly install resolved [ { name: 'keypress',
+1472 silly install resolved     version: '0.1.0',
+1472 silly install resolved     description: 'Make any Node ReadableStream emit "keypress" events',
+1472 silly install resolved     author:
+1472 silly install resolved      { name: 'Nathan Rajlich',
+1472 silly install resolved        email: 'nathan@tootallnate.net',
+1472 silly install resolved        url: 'http://tootallnate.net' },
+1472 silly install resolved     main: 'index.js',
+1472 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+1472 silly install resolved     repository:
+1472 silly install resolved      { type: 'git',
+1472 silly install resolved        url: 'git://github.com/TooTallNate/keypress.git' },
+1472 silly install resolved     keywords: [ 'keypress', 'readline', 'core' ],
+1472 silly install resolved     license: 'MIT',
+1472 silly install resolved     readme: 'keypress\n========\n### Make any Node ReadableStream emit "keypress" events\n\n\nPrevious to Node `v0.8.x`, there was an undocumented `"keypress"` event that\n`process.stdin` would emit when it was a TTY. Some people discovered this hidden\ngem, and started using it in their own code.\n\nNow in Node `v0.8.x`, this `"keypress"` event does not get emitted by default,\nbut rather only when it is being used in conjuction with the `readline` (or by\nextension, the `repl`) module.\n\nThis module is the exact logic from the node `v0.8.x` releases ripped out into its\nown module.\n\n__Bonus:__ Now with mouse support!\n\nInstallation\n------------\n\nInstall with `npm`:\n\n``` bash\n$ npm install keypress\n```\n\nOr add it to the `"dependencies"` section of your _package.json_ file.\n\n\nExample\n-------\n\n#### Listening for "keypress" events\n\n``` js\nvar keypress = require(\'keypress\');\n\n// make `process.stdin` begin emitting "keypress" events\nkeypress(process.stdin);\n\n// listen for the "keypress" event\nprocess.stdin.on(\'keypress\', function (ch, key) {\n  console.log(\'got "keypress"\', key);\n  if (key && key.ctrl && key.name == \'c\') {\n    process.stdin.pause();\n  }\n});\n\nprocess.stdin.setRawMode(true);\nprocess.stdin.resume();\n```\n\n#### Listening for "mousepress" events\n\n``` js\nvar keypress = require(\'keypress\');\n\n// make `process.stdin` begin emitting "mousepress" (and "keypress") events\nkeypress(process.stdin);\n\n// you must enable the mouse events before they will begin firing\nkeypress.enableMouse(process.stdout);\n\nprocess.stdin.on(\'mousepress\', function (info) {\n  console.log(\'got "mousepress" event at %d x %d\', info.x, info.y);\n});\n\nprocess.on(\'exit\', function () {\n  // disable mouse on exit, so that the state\n  // is back to normal for the terminal\n  keypress.disableMouse(process.stdout);\n});\n```\n\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2012 Nathan Rajlich &lt;nathan@tootallnate.net&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+1472 silly install resolved     _id: 'keypress@0.1.0',
+1472 silly install resolved     dist:
+1472 silly install resolved      { shasum: '4a3188d4291b66b4f65edb99f806aa9ae293592a',
+1472 silly install resolved        tarball: 'http://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz' },
+1472 silly install resolved     maintainers: [ [Object] ],
+1472 silly install resolved     directories: {},
+1472 silly install resolved     _shasum: '4a3188d4291b66b4f65edb99f806aa9ae293592a',
+1472 silly install resolved     _resolved: 'https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz',
+1472 silly install resolved     _from: 'keypress@>=0.1.0 <0.2.0' } ]
+1473 info install keypress@0.1.0 into c:\socket.io\examples\chat\node_modules\express\node_modules\commander
+1474 info installOne keypress@0.1.0
+1475 verbose installOne of keypress to c:\socket.io\examples\chat\node_modules\express\node_modules\commander not in flight; installing
+1476 verbose lock using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\keypress-5d2d357bd5505ffc.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\commander\node_modules\keypress
+1477 silly install write writing keypress 0.1.0 to c:\socket.io\examples\chat\node_modules\express\node_modules\commander\node_modules\keypress
+1478 silly cache addNamed cb keypress@0.1.0
+1479 verbose unbuild node_modules\express\node_modules\commander\node_modules\keypress
+1480 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\commander\node_modules\keypress is being purged from base c:\socket.io\examples\chat
+1481 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\commander\node_modules\keypress
+1482 verbose tar unpack C:\Users\Administrador\AppData\Roaming\npm-cache\keypress\0.1.0\package.tgz
+1483 verbose tar unpacking to c:\socket.io\examples\chat\node_modules\express\node_modules\commander\node_modules\keypress
+1484 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\commander\node_modules\keypress is being purged
+1485 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\commander\node_modules\keypress
+1486 silly gunzTarPerm modes [ '777', '666' ]
+1487 silly gunzTarPerm extractEntry package.json
+1488 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1489 silly gunzTarPerm extractEntry README.md
+1490 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1491 silly gunzTarPerm extractEntry index.js
+1492 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1493 silly gunzTarPerm extractEntry test.js
+1494 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+1495 info preinstall keypress@0.1.0
+1496 silly install resolved []
+1497 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\commander\node_modules\keypress
+1498 info build c:\socket.io\examples\chat\node_modules\express\node_modules\commander\node_modules\keypress
+1499 verbose linkStuff [ false,
+1499 verbose linkStuff   false,
+1499 verbose linkStuff   false,
+1499 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules\\commander\\node_modules' ]
+1500 info linkStuff keypress@0.1.0
+1501 verbose linkBins keypress@0.1.0
+1502 verbose linkMans keypress@0.1.0
+1503 verbose rebuildBundles keypress@0.1.0
+1504 info install keypress@0.1.0
+1505 info postinstall keypress@0.1.0
+1506 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\keypress-5d2d357bd5505ffc.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\commander\node_modules\keypress
+1507 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\commander
+1508 info build c:\socket.io\examples\chat\node_modules\express\node_modules\commander
+1509 verbose linkStuff [ false,
+1509 verbose linkStuff   false,
+1509 verbose linkStuff   false,
+1509 verbose linkStuff   'c:\\socket.io\\examples\\chat\\node_modules\\express\\node_modules' ]
+1510 info linkStuff commander@1.3.2
+1511 verbose linkBins commander@1.3.2
+1512 verbose linkMans commander@1.3.2
+1513 verbose rebuildBundles commander@1.3.2
+1514 verbose rebuildBundles [ 'keypress' ]
+1515 info install commander@1.3.2
+1516 info postinstall commander@1.3.2
+1517 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\commander-b51fd698e1d5c999.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\commander
+1518 http fetch 200 https://registry.npmjs.org/multiparty/-/multiparty-2.2.0.tgz
+1519 silly fetchAndShaCheck shasum a567c2af000ad22dc8f2a653d91978ae1f5316f4
+1520 verbose about to build c:\socket.io\examples\chat\node_modules\express\node_modules\connect
+1521 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\connect-8d87ab2e3fc48404.lock for c:\socket.io\examples\chat\node_modules\express\node_modules\connect
+1522 verbose about to build c:\socket.io\examples\chat\node_modules\express
+1523 verbose unlock done using C:\Users\Administrador\AppData\Roaming\npm-cache\_locks\express-8a00654b17825612.lock for c:\socket.io\examples\chat\node_modules\express
+1524 verbose stack Error: shasum check failed for C:\Users\ADMINI~1\AppData\Local\Temp\npm-3428-5530c718\registry.npmjs.org\multiparty\-\multiparty-2.2.0.tgz
+1524 verbose stack Expected: a567c2af000ad22dc8f2a653d91978ae1f5316f4
+1524 verbose stack Actual:   2dcbc9ddc24a22f7043e984d2d791d34d3cebc3b
+1524 verbose stack From:     https://registry.npmjs.org/multiparty/-/multiparty-2.2.0.tgz
+1524 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\sha\index.js:38:8
+1524 verbose stack     at ReadStream.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\sha\index.js:85:7)
+1524 verbose stack     at ReadStream.emit (events.js:129:20)
+1524 verbose stack     at _stream_readable.js:908:16
+1524 verbose stack     at process._tickCallback (node.js:355:11)
+1525 verbose cwd c:\socket.io\examples\chat
+1526 error Windows_NT 6.1.7601
+1527 error argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express" "--save"
+1528 error node v0.12.2
+1529 error npm  v2.7.4
+1530 error shasum check failed for C:\Users\ADMINI~1\AppData\Local\Temp\npm-3428-5530c718\registry.npmjs.org\multiparty\-\multiparty-2.2.0.tgz
+1530 error Expected: a567c2af000ad22dc8f2a653d91978ae1f5316f4
+1530 error Actual:   2dcbc9ddc24a22f7043e984d2d791d34d3cebc3b
+1530 error From:     https://registry.npmjs.org/multiparty/-/multiparty-2.2.0.tgz
+1531 error If you need help, you may report this error at:
+1531 error     <https://github.com/npm/npm/issues>
+1532 verbose exit [ 1, true ]
+1533 verbose unbuild node_modules\express\node_modules\connect
+1534 info preuninstall connect@2.12.0
+1535 info uninstall connect@2.12.0
+1536 verbose unbuild rmStuff connect@2.12.0 from c:\socket.io\examples\chat\node_modules
+1537 verbose unbuild rmStuff in c:\socket.io\examples\chat\node_modules\express\node_modules
+1538 info postuninstall connect@2.12.0
+1539 silly gentlyRm c:\socket.io\examples\chat\node_modules\express\node_modules\connect is being purged from base c:\socket.io\examples\chat
+1540 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express\node_modules\connect
+1541 silly vacuum-fs purging c:\socket.io\examples\chat\node_modules\express\node_modules\connect
+1542 silly vacuum-fs quitting because other entries in c:\socket.io\examples\chat\node_modules\express\node_modules
+1543 verbose unbuild node_modules\express
+1544 info preuninstall express@3.4.8
+1545 info uninstall express@3.4.8
+1546 verbose unbuild rmStuff express@3.4.8 from c:\socket.io\examples\chat\node_modules
+1547 silly gentlyRm c:\socket.io\examples\chat\node_modules\.bin\express.cmd is being gently removed
+1548 silly gentlyRm verifying c:\socket.io\examples\chat is an npm working directory
+1549 silly gentlyRm containing path c:\socket.io\examples\chat is under npm's control, in c:\socket.io\examples\chat
+1550 silly gentlyRm deletion target c:\socket.io\examples\chat\node_modules\.bin\express.cmd is under c:\socket.io\examples\chat
+1551 verbose gentlyRm vacuuming from c:\socket.io\examples\chat\node_modules\.bin\express.cmd up to c:\socket.io\examples\chat
+1552 silly gentlyRm c:\socket.io\examples\chat\node_modules\.bin\express is being gently removed
+1553 silly gentlyRm verifying c:\socket.io\examples\chat is an npm working directory
+1554 silly gentlyRm containing path c:\socket.io\examples\chat is under npm's control, in c:\socket.io\examples\chat
+1555 silly gentlyRm deletion target c:\socket.io\examples\chat\node_modules\.bin\express is under c:\socket.io\examples\chat
+1556 verbose gentlyRm vacuuming from c:\socket.io\examples\chat\node_modules\.bin\express up to c:\socket.io\examples\chat
+1557 info postuninstall express@3.4.8
+1558 silly gentlyRm c:\socket.io\examples\chat\node_modules\express is being purged from base c:\socket.io\examples\chat
+1559 verbose gentlyRm don't care about contents; nuking c:\socket.io\examples\chat\node_modules\express
+1560 silly vacuum-fs purging c:\socket.io\examples\chat\node_modules\express
+1561 silly vacuum-fs removing c:\socket.io\examples\chat\node_modules
+1562 silly vacuum-fs finished vacuuming up to c:\socket.io\examples\chat
